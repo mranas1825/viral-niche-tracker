@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="data:,">
+<title>Viral Niche Tracker — Daily TikTok Accounts by Date &amp; Niche</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: dark;
+  --bg:#0c0f0e; --surface:#151918; --surface2:#1e2422; --ink:#f2f4f2; --muted:#9aa8a1; --line:#2a3230;
+  --red:#fe2c55; --gold:#f5b921; --gold-ink:#ffd964;
+  --chip:#f2f4f2; --chip-ink:#101312;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth;overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Archivo,system-ui,sans-serif;line-height:1.5;overflow-x:clip;max-width:100vw}
+a{color:inherit}
+img,svg,video{max-width:100%}
+.mono{font-family:"JetBrains Mono",monospace}
+.wrap{max-width:1180px;width:100%;margin:0 auto;padding:0 18px 56px;min-width:0}
+.top{padding:28px 0 8px}
+.kicker{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(254,44,85,.18)}
+.kicker span{color:var(--muted)}
+h1{font-size:clamp(34px,6vw,58px);line-height:.98;letter-spacing:-.03em;margin:14px 0 12px;font-weight:900}
+h1 em{font-style:normal;color:var(--red)}
+.lede{font-size:17px;color:var(--muted);max-width:720px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
+.stat b{font-size:28px;display:block;line-height:1}
+.stat span{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stat p{margin:6px 0 0;font-size:13px;color:var(--muted)}
+.controls{padding:14px 0;border-bottom:1px solid var(--line);margin-bottom:20px}
+.trend-badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:var(--red);color:#fff;padding:5px 9px;border-radius:999px;white-space:nowrap;vertical-align:middle;margin-left:8px;line-height:1;box-shadow:0 2px 10px rgba(254,44,85,.35)}
+#toTop{position:fixed;right:18px;bottom:18px;z-index:40;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font-size:22px;font-weight:900;line-height:1;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.45);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .22s ease,transform .22s ease,background .18s ease}
+#toTop.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+#toTop:hover{background:var(--red);color:#fff;border-color:var(--red)}
+#toTop:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.controls input[type=search]{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:16px;font-weight:600;margin-bottom:10px;min-height:48px}
+.pills{display:flex;flex-wrap:nowrap;gap:8px;flex:0 0 auto;align-items:center}
+.pill{border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:9px 13px;border-radius:999px;font-weight:700;font-size:13px;cursor:pointer;font-family:inherit;min-height:44px;flex:0 0 auto;white-space:nowrap}
+.pill.active{background:var(--chip);color:var(--chip-ink);border-color:var(--chip)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px;min-width:0}
+.filter-row{display:flex;flex-wrap:nowrap;flex-direction:row;align-items:center;gap:10px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;padding:2px 2px 6px;scroll-padding:0 2px}
+.filter-row::-webkit-scrollbar{display:none;width:0;height:0}
+.filter-row>*{flex:0 0 auto}
+.filter-row .viewtoggle{flex:0 0 auto}
+.filter-row select{flex:0 0 auto;width:auto;max-width:260px}
+.filter-row .toggle{flex:0 0 auto;width:auto;white-space:nowrap;padding-right:4px}
+.row select{padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:700;font-size:15px;max-width:100%;min-height:44px;min-width:0}
+.toggle{font-size:13px;font-weight:700;display:flex;gap:8px;align-items:center;cursor:pointer;min-height:44px;white-space:nowrap}
+.toggle input{width:20px;height:20px;flex:0 0 auto;accent-color:var(--red)}
+.viewtoggle{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;max-width:none;flex:0 0 auto}
+.viewtoggle button{border:0;background:var(--surface);color:var(--ink);padding:9px 14px;font-weight:800;font-size:13px;cursor:pointer;font-family:inherit;min-height:40px;white-space:nowrap}
+.viewtoggle button.active{background:var(--chip);color:var(--chip-ink)}
+section{margin-top:30px}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:3px solid var(--ink);padding-bottom:10px;margin-bottom:14px;flex-wrap:wrap}
+.sec-head>div{min-width:0;flex:1 1 220px}
+.sec-head h2{margin:0;font-size:24px;letter-spacing:-.02em;line-height:1.15;overflow-wrap:break-word}
+.sec-head p{margin:2px 0 0;color:var(--muted);font-size:14px;overflow-wrap:break-word}
+.badge{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--surface2);padding:6px 9px;border-radius:999px;white-space:nowrap;max-width:100%}
+.sub-head{display:flex;align-items:center;gap:10px;margin:22px 0 12px;flex-wrap:wrap}
+.sub-head h3{margin:0;font-size:18px;overflow-wrap:break-word;min-width:0}
+.sub-head .count{font-size:12px;font-weight:800;color:var(--muted);white-space:nowrap}
+.sub-head .rule{flex:1 1 40px;height:1px;background:var(--line);min-width:24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;min-width:0}
+.grid>*{min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0;overflow-wrap:break-word}
+.card.top{border:2px solid var(--gold);box-shadow:0 0 0 3px rgba(245,185,33,.15)}
+.card-head{display:flex;gap:12px;align-items:center}
+.avatar{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-weight:900;color:#fff;flex:0 0 auto;font-size:15px}
+.card h3{margin:0;font-size:16px;line-height:1.15;word-break:break-word}
+.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.sub{font-size:12px;color:var(--muted);font-weight:700}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.num{background:var(--surface2);border-radius:10px;padding:8px}
+.num b{display:block;font-size:14px;line-height:1.3}.num span{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.why{font-size:13.5px;color:var(--muted);margin:0;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11px;font-weight:800;padding:5px 7px;border-radius:999px;background:var(--surface2)}
+.tag.ok{background:#123524;color:#7be2a8}.tag.warn{background:#3a2a08;color:#ffcf7a}
+.tag.niche{background:#26203a;color:#c9bfff}
+.tag.star{background:#3a2f08;color:var(--gold-ink)}
+.tag.fit{background:#3a1219;color:#ff9db0}
+.card.trend{border-top:3px solid var(--red)}
+.card.trend h3{font-size:17px}
+.trend .sig{font-size:12.5px;color:var(--muted);margin:0}
+.trend .sig b{color:var(--ink);font-weight:800}
+.card a.go{font-weight:800;font-size:13px;text-decoration:none;color:var(--red)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;padding:22px;text-align:center;color:var(--muted)}
+.news{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.news article{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
+.news article.top{border:2px solid var(--gold);box-shadow:0 0 0 3px rgba(245,185,33,.15)}
+.news h3{margin:8px 0 6px;font-size:16px;line-height:1.3;overflow-wrap:break-word}
+.news p{color:var(--muted);font-size:14px;margin:0;overflow-wrap:break-word}
+.news .meta{font-size:12px;font-weight:700;color:var(--muted);margin-top:10px;overflow-wrap:anywhere}
+.news .meta b{color:var(--ink)}
+.news article{min-width:0}
+footer{margin-top:34px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px;overflow-wrap:break-word}
+.num b{overflow-wrap:break-word}
+.card a.go{padding:6px 0;min-height:32px;display:inline-flex;align-items:center}
+/* ---------- Responsive ---------- */
+@media(max-width:860px){
+  .stats{grid-template-columns:1fr 1fr}
+  .grid{grid-template-columns:1fr 1fr}
+  .news{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .wrap{padding:0 14px 88px}
+  .top{padding:22px 0 4px}
+  h1{font-size:clamp(30px,9.5vw,40px)}
+  .lede{font-size:15.5px}
+  .kicker{font-size:11px;letter-spacing:.09em}
+  .stats{gap:10px;margin:18px 0}
+  .stat{padding:13px}
+  .stat b{font-size:24px}
+  section{margin-top:26px}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+  .sec-head>div{flex:none;width:100%}
+  .sec-head h2{font-size:21px;line-height:1.25}
+  .sec-head h2 .trend-badge{margin-left:6px}
+  .sec-head p{font-size:13.5px}
+  .badge{white-space:normal;overflow-wrap:anywhere;line-height:1.35;text-align:left}
+  .sub-head{margin:18px 0 10px;gap:8px}
+  .sub-head h3{font-size:16.5px;flex:1 1 auto}
+  .grid{grid-template-columns:1fr}
+  .news{grid-template-columns:1fr}
+  .controls{padding:12px 0}
+  .controls .filter-row{flex-direction:row;flex-wrap:nowrap;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:6px;margin-left:-2px;margin-right:-2px}
+  .controls .filter-row::-webkit-scrollbar{display:none}
+  .controls .filter-row .viewtoggle{width:auto;flex:0 0 auto}
+  .controls .filter-row .viewtoggle button{flex:0 0 auto;padding:10px 12px;min-height:44px}
+  .controls .filter-row .pills{width:auto;flex:0 0 auto;flex-wrap:nowrap}
+  .controls .filter-row .pills .pill{flex:0 0 auto;text-align:center;min-height:44px}
+  .filter-row select{width:auto;flex:0 0 auto;max-width:240px;min-height:44px}
+  .filter-row .toggle{width:auto;flex:0 0 auto;min-height:44px}
+  .card{padding:15px}
+  .card.trend h3{font-size:16px}
+  #toTop{width:44px;height:44px;font-size:20px;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+}
+@media(max-width:430px){
+  .wrap{padding:0 12px 88px}
+  .stats{grid-template-columns:1fr 1fr;gap:8px}
+  .stat{padding:12px}
+  .stat b{font-size:22px}
+  .stat span{font-size:11px}
+  .stat p{font-size:12.5px}
+  .nums{grid-template-columns:1fr 1fr;gap:7px}
+  .num{padding:7px}
+  .num b{font-size:13px}
+  .avatar{width:44px;height:44px;border-radius:12px}
+  .trend-badge{font-size:10.5px;padding:5px 8px}
+}
+@media(max-width:360px){
+  h1{font-size:29px}
+  .stats{grid-template-columns:1fr}
+  .stat{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px}
+  .stat b{font-size:22px}
+  .stat p{flex:1 1 100%}
+  .nums{grid-template-columns:1fr}
+  .sec-head h2{font-size:19.5px}
+  .viewtoggle button{font-size:12.5px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="kicker"><span class="dot"></span> Viral Niche Tracker <span>• Daily TikTok account research</span></div>
+  <h1>Viral niches.</h1>
+  <p class="lede">Every viral TikTok account from the daily hunt — grouped by date or by niche, split into 🤖 AI and ✂️ Clipping, with follower/view proof and a ✅/⚠️ monetization check on each one.</p>
+</header>
+
+<div class="controls" style="margin-top:30px">
+  <input id="q" type="search" placeholder="Search handle, niche or keyword — e.g. history, AI fruit, finance…">
+  <div class="row filter-row" style="margin-top:0" role="group" aria-label="Filters">
+    <div class="viewtoggle" role="group" aria-label="View">
+      <button id="viewDate" class="active">📅 By Date</button>
+      <button id="viewNiche">🏷️ By Niche</button>
+    </div>
+    <select id="dateFilter" aria-label="Filter by date"></select>
+    <div class="pills" id="catPills"></div>
+    <select id="nicheFilter" aria-label="Filter by niche"></select>
+    <label class="toggle"><input type="checkbox" id="monoOnly"> ✅ Monetizable only (1min+)</label>
+  </div>
+  <p id="count" style="margin:10px 0 0;font-size:13px;color:var(--muted);font-weight:700"></p>
+</div>
+
+<main id="groups"></main>
+
+<footer id="foot"></footer>
+</div>
+<button id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
+
+<script>
+var DATA = {"accounts": [{"date": "2026-09-30", "category": "AI", "n": "1", "handle": "@ai.cinema021", "link": "https://www.tiktok.com/@ai.cinema021", "niche": "AI micro-drama", "followers": "~3.3M (fastest-growing per UNILAD Tech)", "views": "300M total views", "length": "2-min episodes", "monetizable": "✅", "why": "Talking-fruits Love Island parody, daily episodes, ~300M views. Note: original removed by TikTok Mar 2026 (low-quality AI) — study format only", "top": false}, {"date": "2026-09-30", "category": "AI", "n": "2", "handle": "@chloe.vs.history", "link": "https://www.tiktok.com/@chloe.vs.history", "niche": "AI history influencer", "followers": "~80K", "views": "1M+ per video", "length": "1-3 min", "monetizable": "✅", "why": "Time-travel AI girl warns historical figures of disasters; million-view videos (Sky News)", "top": false}, {"date": "2026-09-30", "category": "AI", "n": "3", "handle": "@topaiinfluencer", "link": "https://www.tiktok.com/@topaiinfluencer", "niche": "AI influencer showcase", "followers": "~2.0M (approx)", "views": "15.8M likes", "length": "short clips", "monetizable": "⚠️", "why": "Curated AI avatar clips stream; trend-jacking format", "top": false}, {"date": "2026-09-30", "category": "AI", "n": "4", "handle": "@shakeel.ahmed8797", "link": "https://www.tiktok.com/@shakeel.ahmed8797", "niche": "AI animal reactions", "followers": "mid-size", "views": "106.6K likes", "length": "10-20s", "monetizable": "⚠️", "why": "Cute-animal surprise + AI spectacle; 106.6K likes single video; fast production", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "1", "handle": "@makingatruecrimerer", "link": "https://www.tiktok.com/@makingatruecrimerer", "niche": "true crime", "followers": "~3M", "views": "n/a", "length": "1-3 min parts", "monetizable": "✅", "why": "Serialized case deep-dives with cliffhangers; audience suggests cases", "top": true}, {"date": "2026-09-30", "category": "Clipping", "n": "2", "handle": "@watchwithannie2", "link": "https://www.tiktok.com/@watchwithannie2", "niche": "movies", "followers": "187K plays/post (Aug 2026)", "views": "187K plays", "length": "1-3 min", "monetizable": "✅", "why": "Nollywood drama clips; sensational captions force comments", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "3", "handle": "@motivationalspeech552t", "link": "https://www.tiktok.com/@motivationalspeech552t", "niche": "motivational", "followers": "452.9K plays indexed video", "views": "452.9K plays", "length": "30-60s", "monetizable": "⚠️", "why": "Emotional peak moments; 41.2K shares — massive share rate", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "4", "handle": "@calltoleap", "link": "https://www.tiktok.com/@calltoleap", "niche": "finance/business", "followers": "growing US", "views": "n/a", "length": "1-min+ explainers", "monetizable": "✅", "why": "Steve Chen investing tips; actionable lists; finance = highest ad RPM", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "5", "handle": "@dudeperfect", "link": "https://www.tiktok.com/@dudeperfect", "niche": "sports", "followers": "millions", "views": "n/a", "length": "short trick shots", "monetizable": "⚠️", "why": "Sports-comedy empire; nostalgia + stunt spectacle", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "6", "handle": "@standupcomedy_uss", "link": "https://www.tiktok.com/@standupcomedy_uss", "niche": "comedy", "followers": "~26.5K (approx)", "views": "173K likes", "length": "30-60s", "monetizable": "⚠️", "why": "Cherry-picked stand-up punchlines; zero production", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "7", "handle": "@lordeye_", "link": "https://www.tiktok.com/@lordeye_", "niche": "anime", "followers": "49.6K likes indexed video", "views": "49.6K likes", "length": "short edits", "monetizable": "⚠️", "why": "Hype edits riding new anime releases", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "8", "handle": "@visualsby.haider", "link": "https://www.tiktok.com/@visualsby.haider", "niche": "history", "followers": "indexed", "views": "n/a", "length": "1-2 min", "monetizable": "✅", "why": "AI-upscaled vintage nostalgia clips; retention via nostalgia", "top": false}, {"date": "2026-09-30", "category": "Clipping", "n": "9", "handle": "@relatolab", "link": "https://www.tiktok.com/@relatolab", "niche": "interview", "followers": "small-mid", "views": "4.3K+ likes", "length": "30-90s", "monetizable": "⚠️/✅", "why": "Rides trending celebrity interviews weekly", "top": false}, {"date": "2026-10-01", "category": "AI", "n": "1", "handle": "@timetravellerpov", "link": "https://www.tiktok.com/@timetravellerpov", "niche": "AI history POV", "followers": "~500K+ (approx)", "views": "53M views", "length": "1-2 min", "monetizable": "✅", "why": "POV: wake up in 79 CE Pompeii; Black Death video 53M views", "top": true}, {"date": "2026-10-01", "category": "AI", "n": "2", "handle": "@itsmidnighttv", "link": "https://www.tiktok.com/@itsmidnighttv", "niche": "AI horror films", "followers": "n/a", "views": "n/a", "length": "1-3 min (est.)", "monetizable": "✅ likely", "why": "BuzzFeed #1 AI horror page; fully AI short horror films", "top": false}, {"date": "2026-10-01", "category": "AI", "n": "3", "handle": "@world_ai_history", "link": "https://www.tiktok.com/@world_ai_history", "niche": "AI history shorts", "followers": "~43.1K (approx)", "views": "276K likes", "length": "30-60s", "monetizable": "⚠️", "why": "AI-animated historical scenes; 276K total likes", "top": false}, {"date": "2026-10-01", "category": "AI", "n": "4", "handle": "@ai_flickz", "link": "https://www.tiktok.com/@ai_flickz", "niche": "AI fake trailers", "followers": "n/a", "views": "10K likes/video", "length": "30-60s", "monetizable": "⚠️", "why": "Hollywood-style fake trailers; ~10K likes/video", "top": false}, {"date": "2026-10-01", "category": "AI", "n": "5", "handle": "@thenightmarepage", "link": "https://www.tiktok.com/@thenightmarepage", "niche": "AI horror reimagined", "followers": "n/a", "views": "n/a", "length": "short clips", "monetizable": "⚠️", "why": "BuzzFeed #2; terrifying AI twists on pop-culture characters", "top": false}, {"date": "2026-10-01", "category": "AI", "n": "6", "handle": "@littleberrytv", "link": "https://www.tiktok.com/@littleberrytv", "niche": "AI baby dance", "followers": "n/a", "views": "1.2M plays", "length": "10-30s", "monetizable": "⚠️", "why": "'Cute strawberry' AI baby dance: 1.2M plays, 58K likes, 46K shares", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "1", "handle": "@podcastviralll", "link": "https://www.tiktok.com/@podcastviralll", "niche": "podcast", "followers": "~988.5K (approx)", "views": "66.3M likes", "length": "30-90s", "monetizable": "⚠️", "why": "Top viral podcast moments, captioned; no original content needed", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "2", "handle": "@viralclipzhq1", "link": "https://www.tiktok.com/@viralclipzhq1", "niche": "stream highlights", "followers": "n/a", "views": "n/a", "length": "15-60s", "monetizable": "⚠️", "why": "Official clipper for Twitch streamer MPX_Player; zooms + subtitles", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "3", "handle": "@gaminggames001", "link": "https://www.tiktok.com/@gaminggames001", "niche": "gaming", "followers": "~342K (approx)", "views": "918.8K likes", "length": "15-45s", "monetizable": "⚠️", "why": "Punchy Fortnite/COD/Minecraft clips stream", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "4", "handle": "@aita.unfilter", "link": "https://www.tiktok.com/@aita.unfilter", "niche": "reddit-story", "followers": "n/a", "views": "217K plays", "length": "~1-2 min multi-part", "monetizable": "✅ leaning", "why": "r/AmITheAsshole narration; forces viewers to take sides; 217K plays", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "5", "handle": "@lifestyleforever2", "link": "https://www.tiktok.com/@lifestyleforever2", "niche": "luxury/lifestyle", "followers": "~331.9K (approx)", "views": "17.8M likes", "length": "5-30s", "monetizable": "⚠️", "why": "Millionaire's-girlfriend wealth aesthetic; drives saves/shares", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "6", "handle": "@music_lirics_1mil", "link": "https://www.tiktok.com/@music_lirics_1mil", "niche": "music", "followers": "~1.8M (approx)", "views": "15.3M likes", "length": "15-45s", "monetizable": "⚠️", "why": "Lyrics overlays on trending songs; biggest account today", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "7", "handle": "@breakingnewsoftheday", "link": "https://www.tiktok.com/@breakingnewsoftheday", "niche": "news", "followers": "~29.5K (approx)", "views": "195.5K likes", "length": "30-90s", "monetizable": "⚠️", "why": "Catches breaking-story search traffic early", "top": false}, {"date": "2026-10-01", "category": "Clipping", "n": "8", "handle": "@documentary.idn", "link": "https://www.tiktok.com/@documentary.idn", "niche": "documentary", "followers": "~5.8K (approx)", "views": "83.3K likes", "length": "1-3 min", "monetizable": "✅ leaning", "why": "Narration clips hold watch time; naturally 1min+", "top": false}, {"date": "2026-10-02", "category": "AI", "n": "1", "handle": "@mpwild", "link": "https://www.tiktok.com/@mpwild", "niche": "AI cat stories", "followers": "n/a (50M first video, 80M peak — Dexerto)", "views": "80M peak", "length": "15-45s", "monetizable": "⚠️", "why": "'Chubby' AI cat + meow-song trend; hottest AI format right now", "top": false}, {"date": "2026-10-02", "category": "AI", "n": "2", "handle": "@jean_philanthrope", "link": "https://www.tiktok.com/@jean_philanthrope", "niche": "AI character comedy", "followers": "~190K in weeks", "views": "13.8M views", "length": "15-30s", "monetizable": "⚠️", "why": "'Jean Phil' French Lord Farquaad shadow-boxing; 13.8M first video; repeatable template", "top": false}, {"date": "2026-10-02", "category": "AI", "n": "3", "handle": "@holyvlogsz", "link": "https://www.tiktok.com/@holyvlogsz", "niche": "AI Bible vloggers", "followers": "millions of views", "views": "millions", "length": "30-60s vlogs", "monetizable": "⚠️", "why": "Bible characters as Gen Z influencers; controversy fuels comments", "top": false}, {"date": "2026-10-02", "category": "AI", "n": "4", "handle": "@absurd.ai.videos", "link": "https://www.tiktok.com/@absurd.ai.videos", "niche": "AI grandpa comedy", "followers": "n/a", "views": "76.2K likes", "length": "short clips", "monetizable": "⚠️", "why": "Wholesome AI grandpa + absurd situations; 76.2K likes", "top": false}, {"date": "2026-10-02", "category": "AI", "n": "5", "handle": "@princenorth", "link": "https://www.tiktok.com/@princenorth", "niche": "AI grandpa persona", "followers": "n/a", "views": "26.4K likes", "length": "short clips", "monetizable": "⚠️", "why": "Grandfather-figure AI comedy; 26.4K likes", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "1", "handle": "@that_chapter", "link": "https://www.tiktok.com/@that_chapter", "niche": "true crime", "followers": "~1.2M (approx)", "views": "n/a", "length": "1-2 min", "monetizable": "✅ leaning", "why": "Mike Oh dry-wit international case narration; career-level format", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "2", "handle": "@icmovies1", "link": "https://www.tiktok.com/@icmovies1", "niche": "movies", "followers": "61.3K likes indexed", "views": "61.3K likes", "length": "30-60s", "monetizable": "⚠️", "why": "Hype scenes + #fyp tags; simple curation", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "3", "handle": "@mostly.focused", "link": "https://www.tiktok.com/@mostly.focused", "niche": "motivational", "followers": "2.4M likes hit video", "views": "2.4M likes", "length": "30-60s", "monetizable": "⚠️", "why": "Emotional peak moments; share-bait", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "4", "handle": "@ohswitzyman", "link": "https://www.tiktok.com/@ohswitzyman", "niche": "finance/business", "followers": "200K+ (Sept 2026)", "views": "n/a", "length": "short clips", "monetizable": "⚠️", "why": "Switzy day-trading/forex clips; one-idea-per-video", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "5", "handle": "@qzxwnvzqi3", "link": "https://www.tiktok.com/@qzxwnvzqi3", "niche": "sports", "followers": "5M plays hit video", "views": "5M plays", "length": "15-45s", "monetizable": "⚠️", "why": "NFL_Moments highlights; NFL season = search peak", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "6", "handle": "@funny.videos3122", "link": "https://www.tiktok.com/@funny.videos3122", "niche": "comedy", "followers": "30K-128K-like videos", "views": "30K-128K likes", "length": "15-30s", "monetizable": "⚠️", "why": "Funny compilations; pure curation, zero production", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "7", "handle": "@hwnaiftxkg", "link": "https://www.tiktok.com/@hwnaiftxkg", "niche": "anime", "followers": "~3.5M (Sept 2026)", "views": "8.1% engagement", "length": "short edits", "monetizable": "⚠️", "why": "Anime edits engagement king; 8.1% engagement", "top": false}, {"date": "2026-10-02", "category": "Clipping", "n": "8", "handle": "@history.telling36", "link": "https://www.tiktok.com/@history.telling36", "niche": "history", "followers": "~134K (approx)", "views": "146.6K likes", "length": "1-2 min", "monetizable": "✅ leaning", "why": "Narrative history clips hold watch time", "top": true}, {"date": "2026-10-02", "category": "Clipping", "n": "9", "handle": "@fraim.clips", "link": "https://www.tiktok.com/@fraim.clips", "niche": "interview", "followers": "n/a", "views": "23.5K likes", "length": "15-60s", "monetizable": "⚠️", "why": "Celebrity interview moments, fast-clipped (Busta Rhymes 23.5K)", "top": false}, {"date": "2026-10-03", "category": "AI", "n": "1", "handle": "@draugr.balled", "link": "https://www.tiktok.com/@draugr.balled", "niche": "AI Viking-rap music", "followers": "n/a", "views": "8.5M views (315K likes)", "length": "15-30s clips", "monetizable": "⚠️", "why": "AI music-slop ka sab se bara TikTok hit — pure AI audio+visuals, faceless, millions", "top": false}, {"date": "2026-10-03", "category": "AI", "n": "2", "handle": "@sigricefang", "link": "https://www.tiktok.com/@sigricefang", "niche": "AI Viking-rap music", "followers": "n/a", "views": "1.7M views (172K likes)", "length": "15-30s clips", "monetizable": "⚠️", "why": "same AI-music genre Sept mein bhi viral — trend abhi alive hai", "top": false}, {"date": "2026-10-03", "category": "AI", "n": "3", "handle": "@viggo.ironside", "link": "https://www.tiktok.com/@viggo.ironside", "niche": "AI Viking-rap music", "followers": "n/a", "views": "1.6M views (98.4K likes)", "length": "15-30s clips", "monetizable": "⚠️", "why": "third proof: yeh AI music format fully repeatable hai", "top": false}, {"date": "2026-10-03", "category": "AI", "n": "4", "handle": "@_blackcrownstudio_", "link": "https://www.tiktok.com/@_blackcrownstudio_", "niche": "AI Viking folk-metal", "followers": "n/a", "views": "2.1M views (144.4K likes)", "length": "15-30s clips", "monetizable": "⚠️", "why": "AI sound + full-song funnel — streaming/affiliate monetization angle", "top": false}, {"date": "2026-10-03", "category": "AI", "n": "5", "handle": "@aiconspiracy", "link": "https://www.tiktok.com/@aiconspiracy", "niche": "AI fake podcast", "followers": "n/a", "views": "viral fake-podcast format", "length": "15-60s", "monetizable": "⚠️", "why": "AI celebrity lip-sync podcast clips — teen-money format, still running", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "1", "handle": "@clipsbyack", "link": "https://www.tiktok.com/@clipsbyack", "niche": "podcast", "followers": "n/a", "views": "16.3K likes on video", "length": "30-60s", "monetizable": "⚠️", "why": "viral podcast-moment arbitrage: Full Send/NELK clips ko fast re-cut", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "2", "handle": "@jmsclips30", "link": "https://www.tiktok.com/@jmsclips30", "niche": "stream highlights", "followers": "n/a", "views": "265.6K likes on video", "length": "15-45s", "monetizable": "⚠️", "why": "IShowSpeed viral stream clips — Speed = 2026 ka sab se clipped streamer", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "3", "handle": "@bilionaires.club3", "link": "https://www.tiktok.com/@bilionaires.club3", "niche": "luxury", "followers": "n/a", "views": "1.8M likes on video", "length": "15-30s", "monetizable": "⚠️", "why": "supercar/billionaire lifestyle clips — aspiration edits ka engagement king", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "4", "handle": "@fncomp_official", "link": "https://www.tiktok.com/@fncomp_official", "niche": "gaming", "followers": "~1.5M (approx)", "views": "9.3M total likes", "length": "15-60s", "monetizable": "⚠️", "why": "Fortnite competitive clips — official-scale proof, evergreen gaming niche", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "5", "handle": "@hip_hop_rap2.0", "link": "https://www.tiktok.com/@hip_hop_rap2.0", "niche": "music", "followers": "~13.7K (approx)", "views": "319.3K total likes", "length": "15-30s", "monetizable": "⚠️", "why": "hip-hop/rap clips curation — small but consistent niche proof", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "6", "handle": "@news888992", "link": "https://www.tiktok.com/@news888992", "niche": "news", "followers": "~34K (approx)", "views": "8.4M views", "length": "30-60s", "monetizable": "⚠️", "why": "red-circle annotation news format — sab se explosive news template", "top": false}, {"date": "2026-10-03", "category": "Clipping", "n": "7", "handle": "@redditstory628", "link": "https://www.tiktok.com/@redditstory628", "niche": "reddit story", "followers": "n/a", "views": "486.1K plays (15.1K likes)", "length": "1-3 min", "monetizable": "✅", "why": "Reddit drama narration — longer storytime = monetizable length", "top": true}, {"date": "2026-10-03", "category": "Clipping", "n": "8", "handle": "@shangerdanger", "link": "https://www.tiktok.com/@shangerdanger", "niche": "documentary", "followers": "~10.8M (approx)", "views": "365.5M total likes", "length": "1-3 min", "monetizable": "✅", "why": "ocean-exploration docu content — aaj ka sab se bara account", "top": false}, {"date": "2026-10-04", "category": "AI", "n": "1", "handle": "@jani.b086", "link": "https://www.tiktok.com/@jani.b086", "niche": "AI influencer", "followers": "n/a", "views": "120K+ views on debut (Fox News)", "length": "15-60s clips", "monetizable": "⚠️", "why": "Fully-AI 'Janie B' RushTok persona, $100 build, real-or-not debate", "top": false}, {"date": "2026-10-04", "category": "AI", "n": "2", "handle": "@timeportals", "link": "https://www.tiktok.com/@timeportals", "niche": "AI history POV", "followers": "~665.7K (approx)", "views": "53M views Black Death POV (BBC)", "length": "20-60s clips", "monetizable": "⚠️", "why": "First-person AI immersion: Pompeii, Titanic, Black Plague", "top": false}, {"date": "2026-10-04", "category": "AI", "n": "3", "handle": "@aistories.730", "link": "https://www.tiktok.com/@aistories.730", "niche": "AI fruit stories", "followers": "n/a", "views": "148M total views (Tokscript)", "length": "~1-min videos", "monetizable": "✅", "why": "AI talking-fruit Urdu/Hindi soap dramas, cliffhanger daily eps", "top": true}, {"date": "2026-10-04", "category": "AI", "n": "4", "handle": "@kayno.live", "link": "https://www.tiktok.com/@kayno.live", "niche": "AI baby videos", "followers": "~30-43K (approx)", "views": "1.5K likes on repost (Sept 27)", "length": "short looping clips", "monetizable": "⚠️", "why": "Hyper-real AI infant memes, rising followers, freshest AI-baby wave", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "1", "handle": "@heartstartspounding", "link": "https://www.tiktok.com/@heartstartspounding", "niche": "true crime", "followers": "~2M+ (approx)", "views": "Netflix 'Last Trace' deal (Sept 30, 2026)", "length": "1-3 min case clips", "monetizable": "✅", "why": "Kaelyn Moore narrated true crime, weekly cadence, fresh heat", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "2", "handle": "@motiversity", "link": "https://www.tiktok.com/@motiversity", "niche": "motivational", "followers": "~3.7M (approx)", "views": "569K plays / 62.6K likes (Inky Johnson)", "length": "1-3 min speech clips", "monetizable": "✅", "why": "Named-speaker emotional speeches, daily format, top motivation brand", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "3", "handle": "@alexisanddean", "link": "https://www.tiktok.com/@alexisanddean", "niche": "finance", "followers": "~2.2M (approx)", "views": "14.5M views debit-card video", "length": "1-5 min Q&A explainers", "monetizable": "✅", "why": "Wife-asks-banker-husband format, plain relatable explainers 3x/week", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "4", "handle": "@drybarcomedy", "link": "https://www.tiktok.com/@drybarcomedy", "niche": "comedy", "followers": "~653K (approx)", "views": "328K plays Drew Thomas video", "length": "1-2 min stand-up bits", "monetizable": "✅", "why": "Clean pro stand-up bits from Dry Bar specials, remixable", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "5", "handle": "@anime.recap.vn", "link": "https://www.tiktok.com/@anime.recap.vn", "niche": "anime", "followers": "~8K (approx)", "views": "438.7K total likes", "length": "1-3 min narrated recaps", "monetizable": "✅", "why": "Full-anime recap explainers, commentary-driven, originality-safe", "top": false}, {"date": "2026-10-04", "category": "Clipping", "n": "6", "handle": "@thehistoryof.tales", "link": "https://www.tiktok.com/@thehistoryof.tales", "niche": "history", "followers": "~50K (approx)", "views": "46.7K plays 'JW vs Mormon' video", "length": "1-2 min narrated storytelling", "monetizable": "✅", "why": "Contrarian history takes, comment-bait framing drives engagement", "top": false}, {"date": "2026-10-05", "category": "AI", "n": "1", "handle": "@baddreams1985", "link": "https://www.tiktok.com/@baddreams1985", "niche": "AI horror", "followers": "~396K (approx)", "views": "4.2M + 5.3M views", "length": "1-3 min", "monetizable": "✅", "why": "fake true-crime horror cases fool viewers -> 'did this really happen?' comment storms, multi-part binges", "top": true}, {"date": "2026-10-05", "category": "AI", "n": "2", "handle": "@topaiinfluencer", "link": "https://www.tiktok.com/@topaiinfluencer", "niche": "AI animal stories", "followers": "~2.3M (approx)", "views": "2.8M plays", "length": "30-60s", "monetizable": "⚠️", "why": "AI cat soap-opera clips with serialized cliffhangers binge-drive follows", "top": false}, {"date": "2026-10-05", "category": "AI", "n": "3", "handle": "@ai.cat489", "link": "https://www.tiktok.com/@ai.cat489", "niche": "AI animal stories", "followers": "~116K (approx)", "views": "6M plays", "length": "30-60s", "monetizable": "⚠️", "why": "serialized 'part 1...' AI cat adventure episodes with hook-driven titles", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "1", "handle": "@supercarblondie", "link": "https://www.tiktok.com/@supercarblondie", "niche": "luxury", "followers": "~20.4M (approx, verified)", "views": "709K plays / 3.7K shares", "length": "60s", "monetizable": "✅", "why": "exotic supercar showcases, original high-production footage", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "2", "handle": "@jubilee", "link": "https://www.tiktok.com/@jubilee", "niche": "interview", "followers": "~3.3M (approx, verified)", "views": "30M views", "length": "1-3 min multi-part", "monetizable": "✅", "why": "'1 vs 20' adversarial debate format, conflict + comment tribalism", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "3", "handle": "@bbcearth", "link": "https://www.tiktok.com/@bbcearth", "niche": "documentary", "followers": "~815K (approx, verified)", "views": "180K plays", "length": "60s", "monetizable": "✅", "why": "premium nature footage, cinematic narration, save/share-worthy", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "4", "handle": "@movieshub059", "link": "https://www.tiktok.com/@movieshub059", "niche": "movie", "followers": "~911K (approx)", "views": "899K plays / 27.5K likes", "length": "69s", "monetizable": "✅", "why": "'New 2026 movies you missed' discovery hook, cliffhanger + title reveal", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "5", "handle": "@vladtv", "link": "https://www.tiktok.com/@vladtv", "niche": "music", "followers": "~228K (approx)", "views": "611K plays", "length": "173s (~3 min)", "monetizable": "✅", "why": "exclusive hip-hop artist interview clips, celebrity-driven", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "6", "handle": "@news_eye", "link": "https://www.tiktok.com/@news_eye", "niche": "news", "followers": "~316K (approx)", "views": "616K plays", "length": "112s (~2 min)", "monetizable": "✅", "why": "quick news recaps with commentary, timely topics drive shares", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "7", "handle": "@reddit_storiess055", "link": "https://www.tiktok.com/@reddit_storiess055", "niche": "reddit stories", "followers": "~28K (approx)", "views": "1.7M plays", "length": "up to 55-min long-form", "monetizable": "✅", "why": "binge-style Reddit story narrations, long watch-time format", "top": false}, {"date": "2026-10-05", "category": "Clipping", "n": "8", "handle": "@podcasthubglobal", "link": "https://www.tiktok.com/@podcasthubglobal", "niche": "podcast", "followers": "~11.9K (approx)", "views": "1.6M plays", "length": "67s", "monetizable": "✅", "why": "best-moment clips from popular podcasts, hook-y guest moments", "top": false}, {"date": "2026-10-06", "category": "AI", "n": "1", "handle": "@tillynorwoodhq", "link": "https://www.tiktok.com/@tillynorwoodhq", "niche": "AI actress character", "followers": "~40.3K (verified)", "views": "Piers Morgan glitch moment, press tour", "length": "short clips", "monetizable": "⚠️", "why": "controversy-driven AI persona marketing", "top": false}, {"date": "2026-10-06", "category": "AI", "n": "2", "handle": "@obi_studios", "link": "https://www.tiktok.com/@obi_studios", "niche": "AI romance mini-series", "followers": "n/a", "views": "new episodes weekly", "length": "multi-min episodes", "monetizable": "✅", "why": "serialized cliffhanger AI love dramas", "top": false}, {"date": "2026-10-06", "category": "AI", "n": "3", "handle": "@ollie_thewonderkid1", "link": "https://www.tiktok.com/@ollie_thewonderkid1", "niche": "AI baby character", "followers": "~5K (approx)", "views": "100M+ format views (IP-level)", "length": "short clips", "monetizable": "⚠️", "why": "baby-schema AI character, cross-platform IP", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "1", "handle": "@makingatruecrimerer", "link": "https://www.tiktok.com/@makingatruecrimerer", "niche": "true crime", "followers": "~3M (approx)", "views": "3M follower base", "length": "2–10 min", "monetizable": "✅", "why": "long-form narrated case stories", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "2", "handle": "@doac.clips", "link": "https://www.tiktok.com/@doac.clips", "niche": "interview", "followers": "~1.3M (approx)", "views": "158.9K plays / 5.5K likes", "length": "1–3 min", "monetizable": "✅", "why": "Diary of a CEO best moments", "top": true}, {"date": "2026-10-06", "category": "Clipping", "n": "3", "handle": "@recapbyjack", "link": "https://www.tiktok.com/@recapbyjack", "niche": "movie", "followers": "n/a", "views": "6M plays / 250.5K likes", "length": "1–3 min", "monetizable": "✅", "why": "full-movie recaps in minutes", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "4", "handle": "@caleb_hammer_clip", "link": "https://www.tiktok.com/@caleb_hammer_clip", "niche": "finance", "followers": "n/a", "views": "2.7M plays / 165.8K likes", "length": "1–5 min", "monetizable": "✅", "why": "shock-value debt audit clips (fan page)", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "5", "handle": "@gorostomp", "link": "https://www.tiktok.com/@gorostomp", "niche": "gaming", "followers": "n/a", "views": "212.3K likes hit", "length": "1–3 min", "monetizable": "✅", "why": "ranked funny-moments compilations", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "6", "handle": "@motivationalspeech552t", "link": "https://www.tiktok.com/@motivationalspeech552t", "niche": "motivational", "followers": "n/a", "views": "452.9K plays / 22.8K likes", "length": "1–2 min", "monetizable": "✅", "why": "high-share speech clips", "top": false}, {"date": "2026-10-06", "category": "Clipping", "n": "7", "handle": "@untoldstoriesofhistory", "link": "https://www.tiktok.com/@untoldstoriesofhistory", "niche": "history", "followers": "~105K (approx)", "views": "1M total likes", "length": "1–3 min", "monetizable": "✅", "why": "faceless narrated history storytelling", "top": false}, {"date": "2026-10-07", "category": "AI", "n": "1", "handle": "@nianoir.xo", "link": "https://www.tiktok.com/@nianoir.xo", "niche": "AI influencer", "followers": "~2.7M (approx)", "views": "332M views (hit video)", "length": "short clips", "monetizable": "⚠️", "why": "AI model persona 'Nia Noir'; viral dances + real-or-AI debate; recency unverified", "top": false}, {"date": "2026-10-07", "category": "AI", "n": "2", "handle": "@yoooryan_", "link": "https://www.tiktok.com/@yoooryan_", "niche": "AI food creator", "followers": "~665.9K (approx)", "views": "35.4M plays", "length": "short clips", "monetizable": "⚠️", "why": "Reportedly-AI food 'application' videos; 12.1M-view hit beat the original creator", "top": false}, {"date": "2026-10-07", "category": "AI", "n": "3", "handle": "@impossibledestinations__", "link": "https://www.tiktok.com/@impossibledestinations__", "niche": "AI fake travel", "followers": "n/a", "views": "862K views (FB repost)", "length": "short clips", "monetizable": "⚠️", "why": "AI guides tour places that don't exist; viewers plan real trips to fake spots", "top": false}, {"date": "2026-10-07", "category": "AI", "n": "4", "handle": "@the_bald_author", "link": "https://www.tiktok.com/@the_bald_author", "niche": "AI horror / books", "followers": "n/a", "views": "n/a", "length": "length n/a", "monetizable": "⚠️", "why": "AI serial-killer character selling a book series; posted Oct 5-6, very active", "top": false}, {"date": "2026-10-07", "category": "AI", "n": "5", "handle": "@kevin.weeqee", "link": "https://www.tiktok.com/@kevin.weeqee", "niche": "AI stand-up comedy", "followers": "~30.7K (approx)", "views": "n/a", "length": "short clips", "monetizable": "⚠️", "why": "Recurring AI comedian 'Kevin' in fake live-club scenes; persona-led AI comedy", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "1", "handle": "@theclippodcast", "link": "https://www.tiktok.com/@theclippodcast", "niche": "podcast", "followers": "~1.1K (approx)", "views": "856 views top recent", "length": "1-3 min", "monetizable": "✅", "why": "Emerging podcast clipper; 4 clips posted today Oct 7, lengths verified 1:16-3:02", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "2", "handle": "@courtclips2", "link": "https://www.tiktok.com/@courtclips2", "niche": "court clips", "followers": "~109.9K (approx)", "views": "4.9M views", "length": "1-4 min", "monetizable": "✅", "why": "Courtroom confrontation clips; 27.3M total likes, lengths verified 1:04-3:54", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "3", "handle": "@danielmacshow", "link": "https://www.tiktok.com/@danielmacshow", "niche": "luxury", "followers": "~267.4K (approx)", "views": "271.8K views", "length": "1-2 min", "monetizable": "✅", "why": "'What do you do for a living?' supercar-owner interviews; posted Oct 6", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "4", "handle": "@music.hubbb", "link": "https://www.tiktok.com/@music.hubbb", "niche": "music", "followers": "~342.2K (approx)", "views": "743.2K views", "length": "1-3 min", "monetizable": "✅", "why": "Narrated artist-story clips (rap/pop); posted Oct 6, lengths verified", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "5", "handle": "@warzonesignal", "link": "https://www.tiktok.com/@warzonesignal", "niche": "news", "followers": "~3.7K (approx)", "views": "108.4K views", "length": "1-3 min", "monetizable": "✅", "why": "Fast-growing geopolitics news clips; posted Oct 5-6, small account punching up", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "6", "handle": "@strangestthingsz", "link": "https://www.tiktok.com/@strangestthingsz", "niche": "documentary", "followers": "~135.4K (approx)", "views": "1.2M views", "length": "1-3 min", "monetizable": "✅", "why": "True-story slideshow + voiceover documentaries; easiest format to copy", "top": true}, {"date": "2026-10-07", "category": "Clipping", "n": "7", "handle": "@funnyhoodvidz", "link": "https://www.tiktok.com/@funnyhoodvidz", "niche": "comedy", "followers": "~1.2M (approx)", "views": "6M views", "length": "1-3 min compilations", "monetizable": "✅", "why": "Classic comedy-scene compilations; 174M total likes, posted Oct 5", "top": false}, {"date": "2026-10-07", "category": "Clipping", "n": "8", "handle": "@smokepurpp3", "link": "https://www.tiktok.com/@smokepurpp3", "niche": "reddit stories", "followers": "~27.6K (approx)", "views": "2.2M total likes", "length": "1-3 min", "monetizable": "✅", "why": "AITA narration vs Minecraft parkour; CAVEAT: last post Jul 24 - stale, verify in app", "top": false}, {"date": "2026-10-08", "category": "AI", "n": "1", "handle": "@jean_philanthrope", "link": "https://www.tiktok.com/@jean_philanthrope", "niche": "AI influencer character", "followers": "~261.5K (approx)", "views": "13.8M views (first video)", "length": "short clips", "monetizable": "⚠️", "why": "AI shadow-boxing character, Sept 17 launch, meme format; fresh Oct 6 coverage, rapid growth", "top": false}, {"date": "2026-10-08", "category": "AI", "n": "2", "handle": "@sensefulhub", "link": "https://www.tiktok.com/@sensefulhub", "niche": "AI talking food hacks", "followers": "~135.8K (approx)", "views": "3.4M plays (steak video)", "length": "~1 min", "monetizable": "✅", "why": "Angry AI food characters giving cooking/hygiene hacks; 'Cocomelon for adults', profile crawled 4d ago", "top": false}, {"date": "2026-10-08", "category": "AI", "n": "3", "handle": "@chloe.vs.history", "link": "https://www.tiktok.com/@chloe.vs.history", "niche": "AI history POV", "followers": "~80K (approx)", "views": "1.1M plays (Tudor video)", "length": "short clips", "monetizable": "⚠️", "why": "AI girl 'lost in history' selfie vlogs from historical eras; recency partial", "top": false}, {"date": "2026-10-08", "category": "AI", "n": "4", "handle": "@ai.drama.25", "link": "https://www.tiktok.com/@ai.drama.25", "niche": "AI short drama", "followers": "~1.3M (approx)", "views": "25.4M total likes", "length": "short episodes", "monetizable": "⚠️", "why": "Pure AI mini-drama episodes at scale; recency unverified, flagged", "top": false}, {"date": "2026-10-08", "category": "AI", "n": "5", "handle": "@grannyspills", "link": "https://www.tiktok.com/@grannyspills", "niche": "AI influencer comedy advice", "followers": "~945.4K (approx)", "views": "12.5M total likes", "length": "short clips", "monetizable": "⚠️", "why": "Blunt AI grandma in pink designer outfits, dating/life advice; TikTok recency unverified", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "1", "handle": "@truecrimestories786", "link": "https://www.tiktok.com/@truecrimestories786", "niche": "true crime", "followers": "~146.6K (approx)", "views": "4.2M plays (top hit)", "length": "1-8 min (472s checked)", "monetizable": "✅", "why": "Daily narrated crime cases, multi-million-play outliers, active last 7-14 days", "top": true}, {"date": "2026-10-08", "category": "Clipping", "n": "2", "handle": "@theschoolofhardknocks", "link": "https://www.tiktok.com/@theschoolofhardknocks", "niche": "interview", "followers": "~7.5M (approx)", "views": "42.5M plays", "length": "1-2 min (88-122s checked)", "monetizable": "✅", "why": "Street interviews with millionaires/billionaires, repeatable question formula; recency caveat", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "3", "handle": "@spooky_recap", "link": "https://www.tiktok.com/@spooky_recap", "niche": "movie", "followers": "~1.0M (approx)", "views": "4.6M plays", "length": "1-4 min (224s checked)", "monetizable": "✅", "why": "Narrated movie recaps, cliffhanger framing; profile crawled 6d ago, growing", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "4", "handle": "@humphreytalks", "link": "https://www.tiktok.com/@humphreytalks", "niche": "finance", "followers": "~3.4M (approx)", "views": "14.5M views (shorting explainer)", "length": "1-3 min (68s checked)", "monetizable": "✅", "why": "Ex-advisor simple-analogy finance explainers; recency caveat", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "5", "handle": "@thehistorygossip", "link": "https://www.tiktok.com/@thehistorygossip", "niche": "history", "followers": "~653.9K (approx)", "views": "6.1M plays", "length": "1-2 min (72s checked)", "monetizable": "✅", "why": "'History as gossip' storytelling; profile crawled 2d ago, still growing", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "6", "handle": "@sportslime7", "link": "https://www.tiktok.com/@sportslime7", "niche": "sports", "followers": "~80.7K (approx)", "views": "692.9K plays", "length": "1-2 min (80s checked)", "monetizable": "✅", "why": "Narrated Olympic/track comeback stories, not raw highlights; recency weak, flagged", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "7", "handle": "@anime.recaps11", "link": "https://www.tiktok.com/@anime.recaps11", "niche": "anime", "followers": "~32.9K (approx)", "views": "430.8K total likes", "length": "1-3 min (format/bio evidence)", "monetizable": "✅", "why": "Daily anime recaps 'in minutes'; profile crawled 6d ago, +4.2K growth; duration format-evidence only", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "8", "handle": "@game.lore_", "link": "https://www.tiktok.com/@game.lore_", "niche": "gaming", "followers": "~47.4K (approx)", "views": "1.4M plays", "length": "1-2 min (68s checked)", "monetizable": "✅", "why": "Narrated gaming lore listicles; CAVEAT: profile rebranded 'Basketball Talk', verify niche first", "top": false}, {"date": "2026-10-08", "category": "Clipping", "n": "9", "handle": "@daily.motivation.dosis", "link": "https://www.tiktok.com/@daily.motivation.dosis", "niche": "motivational", "followers": "~237.1K (approx)", "views": "3.0M plays", "length": "60s (borderline)", "monetizable": "✅", "why": "Goggins/discipline speech edits, high saves; exactly 60s checked, borderline", "top": false}], "news": [{"date": "2026-10-08", "n": "1", "headline": "DODGERS FAN REFUSES TO GIVE FOUL BALL TO LITTLE KID — ENTIRE STADIUM TURNS ON HIM", "summary": "Dodgers fan caught foul ball at NLDS Tuesday and refused on camera to give it to a young Braves fan. He posed with the ball as the disappointed kid was filmed.", "type": "caught-on-camera", "source": "NY Post - nypost.com/2026/10/07/sports/dodgers-fan-ripped-not-giving-little-braves-fan-nlds-ball", "signal": "2.6M views on X repost in ~12h, ~1M TikTok views", "confidence": "verified", "top": true}, {"date": "2026-10-08", "n": "2", "headline": "67-YEAR-OLD WOMAN DOES DRUNK DONUTS ON COURTHOUSE LAWN — ARRESTED ON CAMERA", "summary": "Sheriff video shows 67-year-old Indiana woman allegedly driving drunk in circles on courthouse lawn, hitting a sign. Arrested on OWI charges, $950 bond, no injuries.", "type": "caught-on-camera", "source": "TMZ - tmz.com/2026/10/07/indiana-woman-arrested-for-driving-on-courthouse-front-lawn", "signal": "Sheriff video released, TMZ + NY Post Oct 6-7", "confidence": "verified", "top": false}, {"date": "2026-10-08", "n": "3", "headline": "CHET HANKS CONFRONTS ERIC ANDRE AT COMPLEXCON — SECURITY FORCED TO STEP IN", "summary": "Chet Hanks confronted Eric Andre at ComplexCon LA over years-old show comments. Shouting match caught on video, security removed Andre.", "type": "celebrity", "source": "Page Six - pagesix.com/2026/10/07/celebrity-news/chet-hanks-eric-andre-beef-explained", "signal": "TMZ-obtained viral clip, Page Six Oct 7", "confidence": "verified", "top": false}, {"date": "2026-10-08", "n": "4", "headline": "FLYING TAXI COMPANY HIT WITH $100 MILLION VERDICT — JURY SIDES WITH SUPPLIER", "summary": "Federal jury awarded supplier Aerosonic over $100M against Joby Aviation, alleging Joby used its proprietary probe designs after an NDA. Joby had countersued.", "type": "court", "source": "Motley Fool - fool.com/investing/2026/10/06/joby-hit-with-over-usd100-million-in-damages-in-ip-lawsuit-verdict", "signal": "Federal jury verdict reported Oct 6-7, $100M+", "confidence": "verified", "top": false}, {"date": "2026-10-08", "n": "5", "headline": "ZENDAYA ROASTED FOR NOT STANDING TO GREET FRANCE'S FIRST LADY — VIRAL VIDEO SPARKS BACKLASH", "summary": "At Louis Vuitton Paris show Oct 7, Zendaya stayed seated shaking hands with First Lady Brigitte Macron. Clip split comments: rude vs US etiquette debate.", "type": "celebrity", "source": "Sandra Rose - sandrarose.com (video via YouTube)", "signal": "Encounter video viral on social Oct 7", "confidence": "likely", "top": false}, {"date": "2026-10-08", "n": "6", "headline": "MAYOR SHIELDS STUDENT PROTESTERS FROM POLICE — GETS TEAR-GASSED ON VIRAL VIDEO", "summary": "Saint-Denis mayor stood in front of student protesters in Paris telling police not to charge. He told Reuters Oct 7 police fired tear gas at the group including him.", "type": "caught-on-camera", "source": "Reuters - reuters.com Oct 7", "signal": "Reuters Oct 7, viral social video", "confidence": "verified", "top": false}, {"date": "2026-10-08", "n": "7", "headline": "CAMP SETTLES GROOMING LAWSUIT FOR $15 MILLION — EVERY LEVEL FAILED", "summary": "$15M settlement reached Oct 7 in Allegheny County suit alleging a camp employee groomed and assaulted a minor. Counsel said failures at every level allowed it.", "type": "court", "source": "Law.com - law.com/thelegalintelligencer/2026/10/07/15m-settlement", "signal": "$15M settlement announced Oct 7 11:08 AM", "confidence": "verified", "top": false}], "trending": [{"date": "2026-10-08", "desc": "Halloween month: creepy-fact narration, horror storytime aur daily '31 Days of Halloween' series har jagah chal rahi hain.", "fit": "Faceless ✅ — narration channels ke liye best fit", "name": "Spooky Season — Creepy Facts Storytime", "signal": "SocialPilot momentum table: #spookyseason + #halloweencostume 'Peaking', #creepyfacts 'Rising'"}, {"date": "2026-10-08", "desc": "Phone neeche rakh ke low-angle creepy walk, phir camera pull-back pe full Halloween costume reveal — 'Ramalama (Bang Bang)' audio pe.", "fit": "Seasonal 🎃 — costume mein face wese hi chhupa hota hai", "name": "Ramalama Costume Walk", "signal": "Virlo + New Engen ki October weekly lists mein top costume format; Oct 31 tak chalega"}, {"date": "2026-10-08", "desc": "Love Island USA ke Corbin Mims audio pe lip-sync: apni relatable take ko full debate-mode mein defend karna.", "fit": "Facecam format", "name": "Two Fishes (Deadpan Defense)", "signal": "New Engen: 'the week's defining argument audio'"}, {"date": "2026-10-08", "desc": "Asli pumpkin lens ke qareeb pakro to dost ka sar ghayab — neeche body dance/acting karti hai, Hocus Pocus remix pe.", "fit": "Faceless ✅ — face pumpkin ke peeche", "name": "Pumpkin Head Illusion", "signal": "Virlo + New Engen trending formats leaderboard, October week 1"}, {"date": "2026-10-08", "desc": "Ingrid Michaelson ke khush track pe dance, lekin on-screen text mein din ki asli embarrassing chaos — clash hi joke hai.", "fit": "Text-driven — kisi bhi niche pe adapt ho sakta hai", "name": "Be OK (Chaos Captions)", "signal": "Virlo October format leaderboard"}, {"date": "2026-10-08", "desc": "Camera spinning ceiling fan ke upar — har blade ek natural wipe, neeche har wipe pe naya outfit.", "fit": "Fashion / facecam", "name": "Ceiling-Fan Transition", "signal": "Lightreel: format mainstream fashion mein cross ho gaya"}, {"date": "2026-10-08", "desc": "Date-ritual edits: 'WAKE UP! IT'S THE FIRST OF THE MONTH' dancing cows (Playboi Carti 'Sky'), Oct 1 Halloween montages — log identity ki tarah repost karte hain.", "fit": "Editing-only ✅ — pura format cuts pe chalta hai", "name": "First-of-the-Month Calendar Edits", "signal": "Lightreel October report ke biggest viral formats mein"}, {"date": "2026-10-08", "desc": "Family member ko apne wardrobe/style mein dress karke transformation reveal.", "fit": "Family / facecam", "name": "Turning My Mum Into Me", "signal": "Startups.co.uk October roundup: trend ne hundreds of millions views liye"}]};
+
+var ACCOUNTS = DATA.accounts;
+var NEWS = DATA.news;
+var TRENDING = DATA.trending || [];
+
+function parseNum(s){
+  if(!s) return 0;
+  var m = String(s).replace(/,/g,"").match(/([\d.]+)\s*([KMB])?/i);
+  if(!m) return 0;
+  var v = parseFloat(m[1]);
+  var u = (m[2]||"").toUpperCase();
+  if(u==="K") v*=1e3; else if(u==="M") v*=1e6; else if(u==="B") v*=1e9;
+  return v;
+}
+var COLORS=["#b42318","#0f766e","#175cd3","#6941c6","#dc6803","#c11574","#363f72","#027a48","#93370d","#7a4a00"];
+function colorFor(h){var n=0;for(var i=0;i<h.length;i++)n+=h.charCodeAt(i);return COLORS[n%COLORS.length]}
+function initials(h){return h.replace("@","").split(/[._]/).map(function(x){return x[0]||""}).join("").slice(0,2).toUpperCase()}
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function fmtDate(dstr){
+  var p=dstr.split("-"); var d=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));
+  var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return days[d.getUTCDay()]+", "+months[d.getUTCMonth()]+" "+d.getUTCDate()+", "+d.getUTCFullYear();
+}
+function isMono(a){return String(a.monetizable).indexOf("✅")===0}
+
+/* Niche normalization for the By Niche view + niche filter */
+function nicheKey(a){
+  var n=String(a.niche||"").trim();
+  if(a.category==="Clipping"){
+    var low=n.toLowerCase();
+    if(low==="movies"||low==="movie") return "Movie";
+    if(low.indexOf("reddit")===0) return "Reddit Stories";
+    if(low.indexOf("finance")===0||low.indexOf("business")===0) return "Finance/Business";
+    if(low.indexOf("luxury")===0||low.indexOf("lifestyle")===0) return "Luxury/Lifestyle";
+    return n.charAt(0).toUpperCase()+n.slice(1);
+  }
+  return n;
+}
+
+/* ---- Computed stats ---- */
+var dates = []; ACCOUNTS.forEach(function(a){ if(dates.indexOf(a.date)<0) dates.push(a.date); });
+dates.sort().reverse();
+var latestDate = dates[0];
+var aiCount = ACCOUNTS.filter(function(a){return a.category==="AI"}).length;
+var clipCount = ACCOUNTS.length - aiCount;
+var monoCount = ACCOUNTS.filter(isMono).length;
+document.getElementById("foot").textContent = "Data: the owner's daily Viral Content Tracker — "+ACCOUNTS.length+" accounts recorded "+fmtDate(dates[dates.length-1])+" to "+fmtDate(latestDate)+". Follower/view numbers are as recorded on each account's date and will change. Always open the TikTok profile before replicating a format to confirm the account is still active.";
+
+/* ---- Trending / hot niche logic ---- */
+function viewsHas1M(s){
+  if(!s) return false;
+  var str=String(s);
+  var m=str.match(/([\d.]+)\s*M\b/i);
+  if(m && parseFloat(m[1])>=1) return true;
+  var b=str.match(/([\d.]+)\s*B\b/i);
+  if(b && parseFloat(b[1])>=1) return true;
+  return false;
+}
+function isHotNiche(k){
+  var kl=String(k||"").toLowerCase().trim();
+  if(!kl) return false;
+  /* (a) name matches or appears in latest date's trending entries */
+  var trendEntries=TRENDING.filter(function(t){return t.date===latestDate});
+  if(!trendEntries.length && TRENDING.length){
+    var td=[]; TRENDING.forEach(function(t){ if(td.indexOf(t.date)<0) td.push(t.date); }); td.sort().reverse();
+    trendEntries=TRENDING.filter(function(t){return t.date===td[0]});
+  }
+  for(var i=0;i<trendEntries.length;i++){
+    var tn=String(trendEntries[i].name||"").toLowerCase();
+    var tdsc=String(trendEntries[i].desc||"").toLowerCase();
+    var combined=tn+" "+tdsc+" "+String(trendEntries[i].signal||"").toLowerCase();
+    if(tn===kl) return true;
+    if(combined.indexOf(kl)>=0) return true;
+    if(tn && kl.indexOf(tn)>=0) return true;
+    /* word-level: if niche is single word, check if it appears as word in trending name */
+    if(kl.indexOf(" ")<0 && tn.indexOf(kl)>=0) return true;
+  }
+  /* (b) + (c) from latest date's accounts in this niche */
+  var latestAcc=ACCOUNTS.filter(function(a){return a.date===latestDate && nicheKey(a)===k});
+  for(var j=0;j<latestAcc.length;j++){
+    if(latestAcc[j].top) return true;
+    if(viewsHas1M(latestAcc[j].views)) return true;
+  }
+  return false;
+}
+var _hotCache={};
+function trendingBadge(k){
+  if(!(k in _hotCache)) _hotCache[k]=isHotNiche(k);
+  return _hotCache[k] ? '<span class="trend-badge" aria-label="Trending niche">📈 Trending</span>' : '';
+}
+
+/* ---- Filters & views ---- */
+var state={view:"date",cat:"All",niche:"All",q:"",mono:false,date:latestDate};
+
+function nicheOptions(){
+  var seen={}, list=[];
+  ACCOUNTS.forEach(function(a){ if(state.date && a.date!==state.date) return; var k=nicheKey(a); if(!seen[k]){seen[k]=1;list.push(k);} });
+  list.sort();
+  return list;
+}
+function renderControls(){
+  var dateSel=document.getElementById("dateFilter");
+  if(dateSel){
+    dateSel.innerHTML=dates.map(function(d){
+      var short=fmtDate(d).replace(/^[^,]+, /,"");
+      var label="📅 "+short+(d===latestDate?" • Latest":"");
+      return '<option value="'+esc(d)+'"'+(state.date===d?' selected':'')+'>'+esc(label)+'</option>';
+    }).join("");
+  }
+  document.getElementById("catPills").innerHTML=["All","AI","Clipping"].map(function(c){
+    return '<button class="pill '+(state.cat===c?'active':'')+'" data-cat="'+c+'">'+(c==="AI"?"🤖 AI":c==="Clipping"?"✂️ Clipping":"All categories")+'</button>';
+  }).join("");
+  document.querySelectorAll("[data-cat]").forEach(function(b){ b.onclick=function(){ state.cat=b.getAttribute("data-cat"); render(); }; });
+  var sel=document.getElementById("nicheFilter");
+  sel.innerHTML='<option value="All">All niches</option>'+nicheOptions().map(function(n){
+    return '<option value="'+esc(n)+'"'+(state.niche===n?' selected':'')+'>'+esc(n)+'</option>';
+  }).join("");
+  document.getElementById("viewDate").classList.toggle("active", state.view==="date");
+  document.getElementById("viewNiche").classList.toggle("active", state.view==="niche");
+}
+function filtered(){
+  return ACCOUNTS.filter(function(a){
+    if(state.date && a.date!==state.date) return false;
+    if(state.cat!=="All" && a.category!==state.cat) return false;
+    if(state.niche!=="All" && nicheKey(a)!==state.niche) return false;
+    if(state.mono && !isMono(a)) return false;
+    if(state.q){
+      var hay=(a.handle+" "+a.niche+" "+a.why+" "+a.category).toLowerCase();
+      if(hay.indexOf(state.q.toLowerCase())<0) return false;
+    }
+    return true;
+  });
+}
+function cardHTML(a){
+  var mono=isMono(a);
+  return '<article class="card'+(a.top?' top':'')+'">'+
+    '<div class="card-head"><div class="avatar" style="background:'+colorFor(a.handle)+'">'+esc(initials(a.handle))+'</div>'+
+    '<div><h3><a href="'+esc(a.link)+'" target="_blank" rel="noopener">'+esc(a.handle)+'</a></h3>'+
+    '<div class="sub">'+(a.category==="AI"?"🤖 AI":"✂️ Clipping")+' • '+esc(a.date)+'</div></div></div>'+
+    '<div class="nums"><div class="num"><b>'+esc(a.followers)+'</b><span>Followers</span></div><div class="num"><b>'+esc(a.views)+'</b><span>Views</span></div></div>'+
+    '<p class="why">'+esc(a.why)+'</p>'+
+    '<div class="tags"><span class="tag niche">'+esc(a.niche)+'</span>'+
+    '<span class="tag '+(mono?'ok':'warn')+'">'+esc(a.monetizable)+' '+(mono?'Monetizable':'Short / check')+'</span>'+
+    '<span class="tag">⏱ '+esc(a.length)+'</span>'+(a.top?'<span class="tag star">⭐ Top pick</span>':'')+'</div>'+
+    '<a class="go" href="'+esc(a.link)+'" target="_blank" rel="noopener">Open TikTok profile →</a></article>';
+}
+function byViewsDesc(list){ return list.slice().sort(function(x,y){ return parseNum(y.views)-parseNum(x.views); }); }
+
+function renderDateView(list){
+  var html="";
+  dates.forEach(function(d){
+    var dayList=list.filter(function(a){return a.date===d});
+    if(!dayList.length) return;
+    var dayTop=dayList.filter(function(a){return a.top})[0];
+    html+='<section><div class="sec-head"><div><h2>📅 '+fmtDate(d)+'</h2><p>'+dayList.length+' accounts'+(dayTop?' • ⭐ Top pick: '+esc(dayTop.handle):'')+'</p></div><span class="badge">'+d+'</span></div>';
+    [["AI","🤖 AI Accounts"],["Clipping","✂️ Clipping Accounts"]].forEach(function(pair){
+      var sub=byViewsDesc(dayList.filter(function(a){return a.category===pair[0]}));
+      if(!sub.length) return;
+      html+='<div class="sub-head"><h3>'+pair[1]+'</h3><span class="count">'+sub.length+' accounts</span><span class="rule"></span></div><div class="grid">'+sub.map(cardHTML).join("")+'</div>';
+    });
+    html+='</section>';
+  });
+  return html;
+}
+function renderNicheView(list){
+  var groups={}, order=[];
+  list.forEach(function(a){ var k=nicheKey(a); if(!groups[k]){groups[k]=[];order.push(k);} groups[k].push(a); });
+  order.sort(function(x,y){ return groups[y].length-groups[x].length || (x<y?-1:1); });
+  return order.map(function(k){
+    var items=byViewsDesc(groups[k]);
+    var cats={}; items.forEach(function(a){cats[a.category]=1;});
+    var catLabel=Object.keys(cats).map(function(c){return c==="AI"?"🤖 AI":"✂️ Clipping"}).join(" + ");
+    return '<section><div class="sec-head"><div><h2>'+esc(k)+trendingBadge(k)+'</h2><p>'+items.length+' account'+(items.length>1?'s':'')+' • '+catLabel+'</p></div><span class="badge">'+esc(k)+'</span></div><div class="grid">'+items.map(cardHTML).join("")+'</div></section>';
+  }).join("");
+}
+function render(){
+  renderControls();
+  var list=filtered();
+  var dateTotal=ACCOUNTS.filter(function(a){return a.date===state.date}).length;
+  document.getElementById("count").textContent="Showing "+list.length+" of "+dateTotal+" accounts • "+fmtDate(state.date)+" • "+(state.view==="date"?"Grouped by date":"Grouped by niche category");
+  document.getElementById("groups").innerHTML = list.length
+    ? (state.view==="date" ? renderDateView(list) : renderNicheView(list))
+    : '<div class="empty" style="margin-top:24px">No accounts match these filters. Try “All categories”, clear the niche filter, or clear the search.</div>';
+}
+document.getElementById("q").addEventListener("input",function(e){ state.q=e.target.value; render(); });
+document.getElementById("monoOnly").addEventListener("change",function(e){ state.mono=e.target.checked; render(); });
+document.getElementById("nicheFilter").addEventListener("change",function(e){ state.niche=e.target.value; render(); });
+document.getElementById("dateFilter").addEventListener("change",function(e){ state.date=e.target.value; var opts=nicheOptions(); if(state.niche!=="All" && opts.indexOf(state.niche)<0) state.niche="All"; render(); });
+document.getElementById("viewDate").addEventListener("click",function(){ state.view="date"; render(); });
+document.getElementById("viewNiche").addEventListener("click",function(){ state.view="niche"; render(); });
+render();
+
+/* ---- Back to top ---- */
+(function(){
+  var btn=document.getElementById("toTop");
+  if(!btn) return;
+  function onScroll(){
+    if(window.scrollY>420 || document.documentElement.scrollTop>420) btn.classList.add("show");
+    else btn.classList.remove("show");
+  }
+  window.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  btn.addEventListener("click",function(){
+    window.scrollTo({top:0,behavior:"smooth"});
+  });
+})();
+</script>
+</body>
+</html>
