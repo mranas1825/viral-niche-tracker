@@ -1,891 +1,1171 @@
 [
- {
-  "date": "2026-10-08",
-  "desc": "Halloween month: creepy-fact narration, horror storytime aur daily '31 Days of Halloween' series har jagah chal rahi hain.",
-  "fit": "Faceless ✅ — narration channels ke liye best fit",
-  "name": "Spooky Season — Creepy Facts Storytime",
-  "signal": "SocialPilot momentum table: #spookyseason + #halloweencostume 'Peaking', #creepyfacts 'Rising'"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Phone neeche rakh ke low-angle creepy walk, phir camera pull-back pe full Halloween costume reveal — 'Ramalama (Bang Bang)' audio pe.",
-  "fit": "Seasonal 🎃 — costume mein face wese hi chhupa hota hai",
-  "name": "Ramalama Costume Walk",
-  "signal": "Virlo + New Engen ki October weekly lists mein top costume format; Oct 31 tak chalega"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Love Island USA ke Corbin Mims audio pe lip-sync: apni relatable take ko full debate-mode mein defend karna.",
-  "fit": "Facecam format",
-  "name": "Two Fishes (Deadpan Defense)",
-  "signal": "New Engen: 'the week's defining argument audio'"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Asli pumpkin lens ke qareeb pakro to dost ka sar ghayab — neeche body dance/acting karti hai, Hocus Pocus remix pe.",
-  "fit": "Faceless ✅ — face pumpkin ke peeche",
-  "name": "Pumpkin Head Illusion",
-  "signal": "Virlo + New Engen trending formats leaderboard, October week 1"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Ingrid Michaelson ke khush track pe dance, lekin on-screen text mein din ki asli embarrassing chaos — clash hi joke hai.",
-  "fit": "Text-driven — kisi bhi niche pe adapt ho sakta hai",
-  "name": "Be OK (Chaos Captions)",
-  "signal": "Virlo October format leaderboard"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Camera spinning ceiling fan ke upar — har blade ek natural wipe, neeche har wipe pe naya outfit.",
-  "fit": "Fashion / facecam",
-  "name": "Ceiling-Fan Transition",
-  "signal": "Lightreel: format mainstream fashion mein cross ho gaya"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Date-ritual edits: 'WAKE UP! IT'S THE FIRST OF THE MONTH' dancing cows (Playboi Carti 'Sky'), Oct 1 Halloween montages — log identity ki tarah repost karte hain.",
-  "fit": "Editing-only ✅ — pura format cuts pe chalta hai",
-  "name": "First-of-the-Month Calendar Edits",
-  "signal": "Lightreel October report ke biggest viral formats mein"
- },
- {
-  "date": "2026-10-08",
-  "desc": "Family member ko apne wardrobe/style mein dress karke transformation reveal.",
-  "fit": "Family / facecam",
-  "name": "Turning My Mum Into Me",
-  "signal": "Startups.co.uk October roundup: trend ne hundreds of millions views liye"
- },
- {
-  "date": "2026-10-09",
-  "name": "Look… (Fear Flip)",
-  "desc": "Two-person format: pehla banda dusre ki supposed fear pe exaggerated panic karta hai, phir flip mein uski asli personal fear reveal hoti hai — contrast hi comedy hai.",
-  "signal": "SocialBee Oct 7 weekly list: October 2026 trending format",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-09",
-  "name": "Text From -A (Pretty Little Liars)",
-  "desc": "Apni chhupi habit/secret ko anonymous text style mein expose karo aur '- A' sign karo, PLL sound ke upar — har niche pe adapt hota hai.",
-  "signal": "MediaNug: 53.5K videos; Later + SocialBee Oct 2-7 lists",
-  "fit": "Faceless ✅ — text-on-screen format"
- },
- {
-  "date": "2026-10-09",
-  "name": "Did I Win This Trend? Costume Reveal",
-  "desc": "Normal clothes se drum-drop pe full Halloween costume cut, caption 'Did I win this trend?' — comments mein debate trigger hota hai.",
-  "signal": "SocialPilot Oct 5-10 cycle: 7 new reveal formats mein #1, #halloweencostume",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-09",
-  "name": "Patient Zero Wedding Edits",
-  "desc": "Wedding footage ko Taylor Swift 'Patient Zero' closing line pe slow cuts mein edit — first look, spin, best clip lyric pe save.",
-  "signal": "Virlo October weekly leaderboard",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-09",
-  "name": "Someone's Gotta Hold It Down",
-  "desc": "Event pe na jaane wale log apni 'fort holding' shift film karte hain — ADELA 'Ain't In LA' sound, ek unpolished shot + on-screen line.",
-  "signal": "Virlo via NapoleonCat Oct 1 roundup: biggest video 384K likes",
-  "fit": "Faceless ✅ — workplace/B-roll pe chal sakta hai"
- },
- {
-  "date": "2026-10-09",
-  "name": "Upside Down Transition",
-  "desc": "Lyrics pe mouth + hand gestures, transition pe before/after flip — har niche ke liye transition-driven format.",
-  "signal": "Later October 2026 roundup, Oct 2 entry",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-09",
-  "name": "Factory How-It's-Made Commentary",
-  "desc": "Massive factory process screen pe chalta hai (tiles, food, nails manufacturing) aur upar explanatory voiceover har step samjhata hai — satisfying + curiosity loop.",
-  "signal": "How-it's-made/factory-process videos fresh viral Oct mein (ceramic tiles factory video 2 din pehle, nail manufacturing 2 din pehle search mein viral tag ke sath)",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-09",
-  "name": "31 Days of Halloween Numbered Series",
-  "desc": "Roz ek numbered spooky video ('Day X/31') — bakery treats, horror picks, creepy facts — series habit se followers daily wapas aate hain.",
-  "signal": "SocialPilot: #31daysofhalloween trending this week Oct 5-11",
-  "fit": "Faceless ✅ — narration series ke liye best"
- },
- {
-  "date": "2026-10-10",
-  "name": "MLB Postseason Reaction Edits",
-  "desc": "Playoff moments pe rapid reaction + edit videos — har game ke baad naya clip, sports feed pura postseason mode mein hai.",
-  "signal": "Virlo + SocialPilot Oct 5-11: MLB postseason har sports feed pe, #mlbplayoffs trending",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "Halloween Home Tour Reveals",
-  "desc": "Decorated Halloween ghar ki room-by-room tour — har room ek naya reveal, creepy twist end pe.",
-  "signal": "SocialPilot Oct 2026 trends: reveal pattern — Halloween homes toured room by room",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "Street Fighter Movie Edit Lane",
-  "desc": "Oct 16 ko Street Fighter theater release se pehle character edits + reaction videos ki ready-made lane khul gayi hai.",
-  "signal": "Virlo October: Oct 16 Street Fighter release = ready-made reaction/edit lane",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "Cozy Fall Aesthetic Edits",
-  "desc": "#cozyseason / #autumnaesthetic cluster — instrumental sound pe slow fall visuals, comfort-watch loop.",
-  "signal": "Virlo October: cozy-fall cluster instrumental sound wave pe ride kar raha hai",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "Restoration Process Commentary",
-  "desc": "Purani diesel engine / machine ki full restoration screen pe, upar explanatory commentary har step samjhati hai — example @restoration086 (132.8K likes wali restoration series).",
-  "signal": "TikTok search: @restoration086 full restoration parts 81K-132K likes; @handengineering factory tours active",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-10",
-  "name": "Once a Day / Week / Month Routine",
-  "desc": "Apni habits ko daily-weekly-monthly checklist mein divide karke save-worthy routine video — skincare, fitness, business sab pe chalta hai.",
-  "signal": "SocialBee trends list: routine ko schedule mein badalne wala format educational content mein strong",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "AI Influencer Family Universes",
-  "desc": "Ek AI character se pura family universe — sister, mother, wife, son — har character apna account, story aapas mein linked.",
-  "signal": "Unilad Tech Oct 8: AI influencer families expand ho rahi hain, copycat accounts already up",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-10",
-  "name": "Obsessica Transition",
-  "desc": "Malcolm Todd track pe I think I am a little bit obsessed transition — beat pe look/scene flip.",
-  "signal": "Virlo October: #obsessica abhi bhi October mein carry kar raha hai",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-11",
-  "name": "Some Place You're Not Going To Like",
-  "desc": "Lip-sync sound pe expectation vs reality — jo socha tha us se zyada bura nikla, contrast hi hook hai.",
-  "signal": "MediaNug Oct 1 2026 report: 13.5K videos on this sound",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-11",
-  "name": "Stop the Wedding Photo Carousels",
-  "desc": "Wedding regrets ko Ashe audio pe photo carousel mein confess karna — story slideshow format.",
-  "signal": "New Engen October 2026 list: Stop the Wedding carousels trending",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-11",
-  "name": "HOCO Proposal Reveals",
-  "desc": "Homecoming proposal reveals aur hoco fit checks — har school event ek naya reveal video.",
-  "signal": "SocialPilot Oct 5-11 2026: #hoco + #hocoproposal trending this week",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-11",
-  "name": "Pink October Awareness Edits",
-  "desc": "Breast Cancer Awareness Month edits — pink-themed stories, fundraisers aur tribute formats.",
-  "signal": "SocialPilot Oct 5-11 2026: #pinkoctober trending this week",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-11",
-  "name": "MLB World Series Edit Lane",
-  "desc": "Postseason se World Series tak har game ke baad rapid highlight + reaction edits ki lane.",
-  "signal": "SocialPilot + Virlo Oct 2026: #mlbplayoffs + #worldseries trending",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-11",
-  "name": "High-Protein Food Process Commentary",
-  "desc": "Cottage cheese / high-protein recipe process screen pe, upar step-by-step commentary — FoodTok ka process format phir surge pe hai.",
-  "signal": "Accio October 2026 trends: cottage cheese revolution on FoodTok",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-11",
-  "name": "Smart Factory Automation Commentary",
-  "desc": "AI-guided factory machines ka process screen pe chalta hai, upar explanatory commentary har step samjhati hai — example @ctorobotics manufacturing video 86.6K likes.",
-  "signal": "TikTok search: @ctorobotics smart-factory commentary video 86.6K likes",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-11",
-  "name": "I Did Nothing (Deadpan Confession)",
-  "desc": "Trending audio pe aisi situations jahan bolne ko kuch hai hi nahi — deadpan confession hi comedy hai.",
-  "signal": "MediaNug Sept 29-Oct list: 5K videos on this audio",
-  "fit": "Faceless ✅ — text-on-screen pe adapt ho sakta hai"
- },
- {
-  "date": "2026-10-12",
-  "name": "Six Seven (Seis Sete) Finger-Count Dance",
-  "desc": "Brazilian funk beat pe rhythmic finger-counting + beat pe shrug — J-Hope/BTS amplification ke baad har demographic cross kar gaya.",
-  "signal": "Lightreel October 2026 weekly report: dominant dance trend, J-Hope version 75M+ views",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-12",
-  "name": "AI Misunderstanding Skits",
-  "desc": "AI ke literal/misread responses pe comedy skits — prompt-vs-result gap hi joke hai, identity-reveal twists ke sath.",
-  "signal": "Lightreel October 2026: AI misunderstanding scenarios comedy formats mein strongly performing",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-12",
-  "name": "Hispanic Heritage Month Final-Week Spotlights",
-  "desc": "Heritage recipes, creator spotlights aur culture explainers — Oct 15 ko month khatam, final-week push chal raha hai.",
-  "signal": "SocialPilot Oct 2026 momentum table: #hispanicheritagemonth 'Steady', month runs to Oct 15",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-12",
-  "name": "City Taste Test",
-  "desc": "Apne city ki local food spots ka honest taste-test review — TikTok ka apna challenge format, restaurants/cafes lead kar rahe hain.",
-  "signal": "SocialPilot Oct 2026: #citytastetest 'Peaking'",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-12",
-  "name": "Bow Bow Bow Dance / Fit Checks",
-  "desc": "'Bow Bow Bow' sound pe dance + outfit fit-check combos — fashion aur sports teams dono use kar rahe hain.",
-  "signal": "SocialPilot Oct 2026 momentum table: #bowbowbow 'Peaking'",
-  "fit": "Fashion / facecam"
- },
- {
-  "date": "2026-10-12",
-  "name": "Southern Gothic Fall Aesthetic",
-  "desc": "Dark, moody Southern Gothic fall visuals — instrumental sound wave pe slow aesthetic montages.",
-  "signal": "Virlo October 2026: Southern Gothic aesthetic cluster fall instrumental wave pe surfacing",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-12",
-  "name": "Wood-Fired Cooking Process Commentary",
-  "desc": "BBQ/wood-fired cooking ka pura process screen pe, upar step-by-step commentary — example @big.eatzbbq (BBQ process video 9,406 likes, Oct 4 indexed).",
-  "signal": "TikTok search Oct 2026: @big.eatzbbq cooking-process videos active; process+commentary format circulating",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-12",
-  "name": "Ice Production Factory Process Commentary",
-  "desc": "Factory mein ice production ka full process, upar explanatory voiceover har step samjhata hai — example @worldprocess1 / @amazingprocess1 factory-process accounts.",
-  "signal": "TikTok search: @amazingprocess1 'Watch how things are made in real factory' process series active",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-13",
-  "name": "Two Fishes",
-  "desc": "Creators lip-sync Corbin Mims' calm Love Island USA audio straight to camera to deadpan-defend a relatable hot take nobody asked them to defend.",
-  "signal": "New Engen October 2026 weekly tracker: Trend #1; Virlo Oct 5 update calls it the week's defining argument audio",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-13",
-  "name": "Ramalama Costume Walk",
-  "desc": "Low-angle shot stays on legs/shoes as creator stalks forward, then camera pulls back to reveal the full Halloween costume.",
-  "signal": "SocialPilot Oct 2026: 'Ramalama (Bang Bang)' at 430.7K videos, Stage: Rising; #halloweencostume 'Peaking'",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-13",
-  "name": "Pumpkin Head Illusion",
-  "desc": "Creator holds a real pumpkin up to the lens to cover a friend's head while the body below dances and flails chaotically.",
-  "signal": "New Engen October 2026 Trend #3 + Virlo Oct 5: top opening-week Halloween format, spooky Hocus Pocus remix",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-13",
-  "name": "Be OK",
-  "desc": "Creator does a happy, smiling dance to Ingrid Michaelson's track while on-screen text reveals a chaotic or embarrassing real situation.",
-  "signal": "New Engen October 2026 Trend #4 + Virlo Oct 5: contrast hook flagged most brand-safe format of the week",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-13",
-  "name": "Answer in One Word",
-  "desc": "Creator texts ChatGPT or a loved one 'answer in one word,' then screen-records the blunt one-word replies to increasingly personal questions.",
-  "signal": "New Engen October 2026 Trend #8 — post within 24-48h, AI-answer formats burn out fast",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-13",
-  "name": "Fan Transition",
-  "desc": "Creator lies flat, shot from directly overhead, while a fan blade wipes across frame to instantly switch outfits — e.g. @milenalife.style running 4 fall looks.",
-  "signal": "New Engen October 2026 Trend #7 (@milenalife.style); Lightreel Oct 2026: ceiling-fan transition mainstream in fashion",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-13",
-  "name": "Candy Factory How-It's-Made Process",
-  "desc": "Factory line on screen — sugar intake, mixing vats, cooking, pulling, forming, wrapping — with explanatory voiceover per step; e.g. @productsmaking chocolate toffee line.",
-  "signal": "TikTok search index: @productsmaking factory process video 170.7K likes / 3,006 comments; format surging on TikTok/Shorts",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-13",
-  "name": "Rug Restoration Deep-Clean Process",
-  "desc": "Filthy rug through flood, scrub, foam wash and extraction stages with commentary explaining the process — e.g. @atcrugwashing's 7-step submersion wash, @mrcleaningrugs.",
-  "signal": "CleanTok signal via TheList/TikTok: #carpetcleaning 588M views; @atcrugwashing + @mrcleaningrugs actively posting in US feed",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-14",
-  "name": "Clapping Cat Reaction Edits",
-  "desc": "Creators cut a reusable black-cat cutout that claps, smiles and reacts into unrelated setups — magic tricks, fails, wins — as modular reaction punctuation.",
-  "signal": "Lightreel Oct 3-10 2026: clapping-cat reactions at 1.9x median breakout, breakout example @merkurianin; searches repeatedly surfaced cat cutouts across niches",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-14",
-  "name": "Tweenslop Animation",
-  "desc": "Existing characters, game and meme assets are turned into elastic 2D puppets, stretched/duplicated/rotated to beat-synced electronic audio with white flashes and grotesque smiles.",
-  "signal": "Lightreel Oct 3-10 2026: tweenslop named an emerging visual language moving into anime/game templates, breakout example @s4b4bu",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-14",
-  "name": "AI Animal Melodrama",
-  "desc": "Synthetic AI cats act out human relationship, family conflict and miniature tragedy stories with emotional overstatement and rapid narrative compression.",
-  "signal": "Lightreel Oct 3-10 2026: AI animal melodrama strongest breakout distribution among emerging families — 2.3x median breakout, 44-45% over 3x baseline",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-14",
-  "name": "Catallena K-Pop Choreography Revival",
-  "desc": "Idols restage an old fandom choreography in one plain continuous shot, fans then contextualize, edit and reproduce it in a nostalgia-to-participation loop.",
-  "signal": "Lightreel Oct 3-10 2026: LE SSERAFIM official @le_sserafim revival with Kim Chaewon triggered fan edits and 'Catallena 2026' searches within hours",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-14",
-  "name": "Proof-First Transformations",
-  "desc": "Video opens on the finished payoff — fuller hair, sauce pour, final photo — then rewinds to show criticism-to-proof method, e.g. @lifeaszeph hair fix, @eevisuals Tower Bridge photo, @makayla_thomas_fit payoff-first food.",
-  "signal": "Lightreel Oct 3-10 2026: 'Finished payoff -> method' and 'Criticism -> visual rebuttal' listed as top hook structures; beauty/food/photography all led with immediate proof",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-14",
-  "name": "Creepy Fact Storytime",
-  "desc": "One unsettling fact on screen over a slow eerie clip with a rewatch twist ending, cut to a quiet music-box bed.",
-  "signal": "SocialPilot Sep 25-Oct 10 2026: new format #creepyfacts Rising; sound at Early stage, 13K videos per TikTok count cited Oct 5 check",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-14",
-  "name": "Glass Jar Mega-Factory Process",
-  "desc": "Molten glass process on screen — silica batch mixing, furnace melting, gob shearing, press-and-blow forming, annealing and QA — with step-by-step explanatory commentary on top; examples in the @viralprocess / @manufactory05 how-it's-made lane.",
-  "signal": "Browser scan Oct 13-14 2026: fresh glass-jar factory process breakdown circulating 1 day ago with full silica-to-palletizing steps; Lightreel Oct 3-10 also flagged finished-payoff-first process demos",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-14",
-  "name": "Steel Forging & Knife-Making Process",
-  "desc": "Glowing steel forging on screen — hydraulic hammer, slag removal, shaping, grinding, heat-treating and finishing a ring/blade — narrated step-by-step; examples: @globalforge, @insidfactory, @knivesxproject.",
-  "signal": "TikTok process scan Oct 2026: @globalforge, @insidfactory and @knivesxproject forging/knife-making process videos surfacing in #satisfying #process searches; distinct from Oct 12-13 process examples",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-15",
-  "name": "Two Fishes",
-  "desc": "Lip-sync the Love Island USA audio straight to camera, deadpan-defending a take nobody asked you to defend, with debate hand gestures.",
-  "signal": "New Engen Oct 2026 list (updated Oct 14) Trend #1; Virlo Oct 2026: week's defining argument audio",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-15",
-  "name": "Ramalama Costume Walk",
-  "desc": "Phone low filming only legs stalking forward, then pull-back reveals the full Halloween costume on the Ramalama drop.",
-  "signal": "New Engen Oct 2026 Trend #2; SocialPilot Oct 2026: #halloweencostume Peaking",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-15",
-  "name": "Shoe Kick Transition",
-  "desc": "Balance a shoe in a karate-style kick, kick into it and reveal a completely new outfit in one unbroken shot.",
-  "signal": "Sozee Current TikTok Trends Oct 2026 (updated 1 day ago): growth-stage, early 2-4 week window",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-15",
-  "name": "We Can't All Be Matcha Girls",
-  "desc": "Counter-wellness reveal: swap the matcha/workout stereotype for your real snack identity against a matcha-girl backdrop.",
-  "signal": "Sozee Oct 2026: growth-stage, spreading across unrelated niches",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-15",
-  "name": "Performative-Distress Alarm",
-  "desc": "Film yourself in morning distress racing to photograph household objects to turn off a scavenger-hunt alarm app, as a daily series.",
-  "signal": "Lightreel Viral UGC Oct 3-10: alarm format especially dominant; example @biancawakesup small-account breakout",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-15",
-  "name": "Grocery Scanning / Score-Reveal",
-  "desc": "Scan groceries, face or skincare with an app and hold for the score reveal — product is the demo, reveal is the payoff.",
-  "signal": "Lightreel Viral UGC Oct 3-10: scanning/score-reveal among biggest UGC formats; examples @reviewswithmia, @jizelalovesskincare",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-15",
-  "name": "Candle Molding Factory Process",
-  "desc": "Candle factory on screen — paraffin melting, wick alignment, mold injection, cooling, demolding, packing — with step-by-step voiceover.",
-  "signal": "Recent factory-process upload in search 3 days ago: 'How 10,000,000 Candles Are Molded Inside a Satisfying Factory'; Micta Process format",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-15",
-  "name": "Luxury Soap Factory Process",
-  "desc": "Luxury soap production line on screen — mixing, molding, cutting, finishing — with full-process commentary.",
-  "signal": "TikTok example @lume.official1: 'How Luxury Soap Is Made in a USA Factory (Full Process)', ~390K-471K likes across search snapshots",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-16",
-  "name": "TikTok Scary Horror Contest",
-  "desc": "Creators recreate famous scary-movie scenes, horror edits aur makeup transformations TikTok ke official contest tag ke under post karte hain.",
-  "signal": "SocialPilot Oct 12-25 cycle: contest Creative Center charts pe 3 din mein top, #tiktokscaryhorrorcontest Rising; New Engen Oct US hashtags list",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-16",
-  "name": "MLB Postseason / World Series Lane",
-  "desc": "Game-day team-color fits, watch-party content aur 'unbiased prediction' bits har game ke sath — series khatam honay tak roz naya content.",
-  "signal": "SocialPilot Oct 12-25 cycle: MLB League Championship Series har sports feed pe, #postseason Peaking",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-16",
-  "name": "Pray For Me Slow Mo",
-  "desc": "Friend groups bari bari exaggerated slow-mo cinematic entrances karte hain The Weeknd & Kendrick ke 'Pray For Me' pe.",
-  "signal": "New Engen October 2026 Trend #9 (updated Oct 14); example creator @gill_garrison",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-16",
-  "name": "Shaving Cream Prank Reveal",
-  "desc": "Parent shaving-cream prank join karne ka drama karta hai, phir camera flip pe kid pehle se foam mein covered reveal hota hai.",
-  "signal": "New Engen October 2026 Trend #10; example creator @lifeasfive",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-16",
-  "name": "Patient Zero Wedding Day",
-  "desc": "Wedding-day clips (first look se kiss tak) Taylor Swift 'Patient Zero' ki line pe cinematic edit mein cut hotay hain.",
-  "signal": "New Engen October 2026 Trend #5; sound US trending sounds mein #2 (MusicMaestro Week 40)",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-16",
-  "name": "Stop the Wedding",
-  "desc": "Photo carousel 'Stop the wedding, but…' se shuru — wedding-day regret (dress, decor, family drama) confess hota hai.",
-  "signal": "New Engen October 2026 Trend #6 — is cycle mein naya",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-16",
-  "name": "Find the Beat — Jersey Club Partner Challenge",
-  "desc": "Ek partner ko slowed Jersey Club track ka dance aata hai, dusre ko beat live dhoondhna hai — reaction hi joke hai.",
-  "signal": "SocialPilot Oct 12-25 Format #4 (new this cycle); sound 38.9K videos, stage Early; #2persondance Rising",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-16",
-  "name": "Start-to-Finish Process Close-Ups",
-  "desc": "Ek technique/process close-up mein start se finish tak film hota hai — craft, technique, seasonal making — calm trending sound aur explanatory overlay/voiceover ke sath.",
-  "signal": "SocialPilot Oct 12-25 cycle: 'Where To Find Me' sound 177.6K videos Rising, technique close-ups ke liye recommended; honest note: aaj koi naya factory subject verify nahi hua",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-17",
-  "name": "Did I Win This Trend? Costume Reveal",
-  "desc": "Normal clothes se Ramalama drum drop pe full Halloween costume reveal, caption mein 'Did I win this trend?' — comments mein argument hi reach hai.",
-  "signal": "SocialPilot Oct 12-25 cycle Format #1 (new this cycle); Ramalama sound 456.2K videos, Peak stage",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-17",
-  "name": "Early Voting Info Lane",
-  "desc": "Nonpartisan early-voting info — hours, parking, accessibility, 'I voted' moments — local US audiences ke liye daily posts Nov 3 tak.",
-  "signal": "SocialPilot Oct 12-25 cycle: #earlyvoting Creative Center Tech chart top pe Oct 13",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-17",
-  "name": "TikTok Shop Black Friday Early Deals",
-  "desc": "Early Black Friday 'is it worth it?' reviews aur comment-reply product demos — deal launch se pehle hi shoppable content bhar raha hai.",
-  "signal": "SocialPilot Oct 12-25 cycle: #tiktokshopblackfriday / #tiktokshopcybermonday Oct 7-13 mein zero se Creative Center top tak",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-17",
-  "name": "My Reaction — Facial Ranking",
-  "desc": "Niche ki cheez pick karo aur sirf facial expressions se honest ranking do — koi script nahi, comments mein behes hi hook hai.",
-  "signal": "Later.com trend dated Oct 16, 2026: 'My reaction' October roundup mein naya",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-17",
-  "name": "Getting Robbed (Distracted Creator)",
-  "desc": "Ek shot: creator phone mein glued, background mein bag 'stolen' ho jata hai — punchline woh cheez hai jis se audience distract hoti hai.",
-  "signal": "Later.com trend dated Oct 16, 2026; audio: original sound - hector mort",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-17",
-  "name": "October Is All About Me",
-  "desc": "Drake ki 'October is all about me' line pe simple video + on-screen text — main-character month energy, kisi bhi niche pe fit.",
-  "signal": "Later.com Oct 16, 2026 seasonal sound alert: line all over FYP",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-17",
-  "name": "Is It Worth It? Product Demo Process",
-  "desc": "Product ko on-screen step-by-step demo / process mein dikhao with explanatory voiceover — kaisa kaam karta hai, phir worth-it verdict.",
-  "signal": "SocialPilot Oct 12-25 cycle: early Black Friday tags mein comment-reply demos aur honest early reviews bhar rahe hain",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-18",
-  "name": "What iPad? (Visual Denial)",
-  "desc": "Creator kisi cheez ko deny karta hai jab ke wohi cheez frame mein wazeh chhupi hui hai — accusation, exaggerated denial, audience pehle spot karti hai.",
-  "signal": "Lightreel October 2026 weekly report: 'clearest TikTok-native audio trend', sound page pe current million-view recreations ka dense cluster",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-18",
-  "name": "Halloween Porch Reveal",
-  "desc": "Decorated porch ko street se film karo, phir family/neighbors ke reaction pe cut — log apne porch ke liye idea save karte hain.",
-  "signal": "SocialPilot Oct 2026 third-week list Format #7; #halloweendecor / #spookyseason, 'Spooky, Scary Skeletons (House VIP Remix)' business-approved",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-18",
-  "name": "Proof-First (Claim-Evidence-Payoff)",
-  "desc": "Pehle claim, phir on-screen evidence/experiment, phir payoff — routine ki jagah proof dikhana har niche mein chal raha hai (food, beauty, fitness, home, tech).",
-  "signal": "Lightreel Viral UGC Oct 10-17 2026: 'Proof Is Replacing Polish' — small creators established accounts ko outrun kar rahe hain",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-18",
-  "name": "Not a Perfect Person (Confession Lyric)",
-  "desc": "'I'm not a perfect person' lyric pe text overlay mein apni flaw/embarrassing habit confess karo — lip-sync admission hi joke hai.",
-  "signal": "SocialBee Oct 14 2026 weekly list: October trending format",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-18",
-  "name": "Can I Ride Duo Dance",
-  "desc": "Do logon ki short, learnable duo-dance routine ek hi sound pe — couples/friends har jagah copy kar rahe hain.",
-  "signal": "Lightreel October 2026: 'broadest active dance sound', example @sierraandlaineydance current breakout",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-18",
-  "name": "Hello October — Autumn Technique Close-Ups",
-  "desc": "Ek technique/cheez ko start se finish tak close-up mein dikhao calm autumn sound pe — recipes, handmade, hair, hotel tours sab pe fit.",
-  "signal": "SocialPilot Oct 2026 sounds: 'Hello, October' 143.7K videos Rising; 'Where To Find Me' 177.6K videos Rising, technique close-ups ke liye recommended",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-18",
-  "name": "Sensory Process Footage Commentary",
-  "desc": "Process screen pe start-to-finish chalta hai (food/factory/craft) aur upar explanatory overlay/voiceover har step samjhata hai — example lane @smart_process34 (cassava root se instant noodles process series).",
-  "signal": "Lightreel Viral UGC Oct 10-17 2026: sensory process footage week ke defining traits mein; @smart_process34 process series TikTok search index mein active",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-18",
-  "name": "One-Minute Ghost Stories",
-  "desc": "Creator ek short local legend/haunted jagah ki story simple dark shot (hallway, flickering candle) pe narrate karta hai — 60s mein puri story.",
-  "signal": "TLinky TikTok Halloween Trends 2026 list: One-Minute Ghost Stories format; local businesses ko edge (apne town ki legend koi copy nahi kar sakta)",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-19",
-  "name": "DIP ON EM One-Take",
-  "desc": "Ek ya do logon ki one-take easy dance SouthMemphisHypeman ke 'DIP ON EM' pe — itni simple ke coffee shops/teams uniform mein copy kar rahe hain.",
-  "signal": "SocialPilot Oct 12-25 cycle: 'DIP ON EM' 49.3K se 128.4K videos in 10 days, Rising",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-19",
-  "name": "Bounce It Duo Reactions",
-  "desc": "Do-person dances aur 'go berserk' reaction clips 'Bounce it' sound pe — weekend-energy chaos hi hook hai.",
-  "signal": "SocialPilot Oct 12-25 cycle: 'Bounce it' 260.5K videos, Peak stage (157.5K se up Oct 5 ke baad)",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-19",
-  "name": "But Where? Shrug",
-  "desc": "Simple sawal ('Fancy a coffee?') ke baad playful shrugs se funny backdrops reveal hote hain — har niche pe backdrop-swap adapt hota hai.",
-  "signal": "Sozee Current TikTok Trends Oct 2026 (updated 5 days ago): growth-stage format",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-19",
-  "name": "Group Costume Reveals",
-  "desc": "Team/friend-group ek sath costume reveal karte hain — offices, salons, friend groups ke group reveals solo reveals ko beat kar rahe hain.",
-  "signal": "SocialPilot Oct 2026 hashtag table: #groupcostume 'Rising'",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-19",
-  "name": "POV Comedy Escalation",
-  "desc": "Ek chhoti problem (kids ki crunchy cough) har cut pe escalate hoti hai — mask, gloves, full hazmat suit, phir empty hallway; koi setup nahi, sirf visual escalation.",
-  "signal": "Lightreel Oct 10-17 2026: strongest comedy example, @amanlikejoseph small-account breakout (surrounding posts low thousands)",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-19",
-  "name": "Mystery Packaging Cliffhanger",
-  "desc": "Bright mystery parcels khareed ke kholna next part tak postpone karna — unresolved contents hi engine hai, unboxing nahi.",
-  "signal": "Lightreel Oct 10-17 2026: @cinthiavictoriacorea Mercado Libre parcels cliffhanger commerce breakout",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-19",
-  "name": "Autumn Minute Handmade Process",
-  "desc": "Ek cheez garden/hand se start-to-finish ek minute mein banti hui dikhao with explanatory overlay — harvest, hike, DIY process calm acoustic bed pe.",
-  "signal": "SocialPilot Oct 12-25 sounds: 'Autumn Minute' 78.4K videos, Rising — one-minute handmade/garden clips ke liye recommended",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-19",
-  "name": "Slow Satisfying Seasonal Process",
-  "desc": "Nail/cafe/florist ka ek slow satisfying seasonal process 'we fell in love in october' pe — process hi content hai, koi face zaroori nahi.",
-  "signal": "SocialPilot Oct 12-25 sounds: 'we fell in love in october' 2M videos, Peak — slow satisfying seasonal process ke liye listed",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-20",
-  "name": "Two Fishes Deadpan Defense",
-  "desc": "Creators lip-sync Corbin Mims' Love Island USA audio straight to camera, deadpan-defending an unhinged take nobody asked about with TED-talk hand gestures.",
-  "signal": "New Engen weekly list Oct 14: #1 trend; Virlo Oct roundup calls it the week's defining argument audio (via New Engen)",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-20",
-  "name": "Fan Blade Transition",
-  "desc": "Overhead fixed frame lying down; each passing fan blade wipes into a new fall outfit — 3-4 looks in one video, e.g. @milenalife.style and @khvdenn.",
-  "signal": "New Engen Oct 14: #7 trend; Lightreel Oct 10-17 flags fan-blade transition as week's fashion breakout (@khvdenn)",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-20",
-  "name": "Answer in One Word",
-  "desc": "Creators screen-record asking ChatGPT, friends or family personal questions with a strict one-word-only rule — blunt one-word answers are the punchline.",
-  "signal": "New Engen weekly list Oct 14: #8 trend 'Answer in One Word'",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-20",
-  "name": "Creepy Fact Storytime",
-  "desc": "One unsettling fact in text overlay over a slow eerie clip, ending on a rewatch-twist line, bedded with the music-box 'white rabbit's bells' sound.",
-  "signal": "SocialPilot Oct 12-25: format #3, #creepyfacts 'Rising'; 'white rabbit's bells' 17.5K videos, Early stage, up 35% in ten days (via SocialPilot/TikTok)",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-20",
-  "name": "TikTok Shop Black Friday Early Find",
-  "desc": "Sellers reply to a real viewer comment, test the product on camera and give an honest 'is it worth it?' verdict weeks before Black Friday deals go live.",
-  "signal": "SocialPilot Oct 12-25: #tiktokshopblackfriday 'Rising'; tags went from zero to top of Creative Center charts Oct 7-13",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-20",
-  "name": "One-Variable Baking Process Experiment",
-  "desc": "Cooking process with explanatory voiceover: change ONE ingredient at a time vs a control, narrate why, close-up texture proof — e.g. @brownbutterbakesleeds cookie experiment.",
-  "signal": "Lightreel Viral UGC Oct 10-17: 'I wanted to see what happens if...' named week's cleanest educational formula; sensory process footage defined the week",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-20",
-  "name": "Inside the MASSIVE Factory Process",
-  "desc": "Factory/manufacturing process with explanatory narration and timestamp breakdown (melting > milling > molding > QA > packing) — 'How 10,000,000 X are made' format.",
-  "signal": "Multiple 'How 10,000,000 X Are Made Inside a Satisfying Factory' #howitsmade uploads Oct 13-17; Lightreel Oct 10-17 flags sensory process footage as week-defining",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-20",
-  "name": "Not a Perfect Person Confession",
-  "desc": "Text overlay exposes a flaw/embarrassing habit you know you shouldn't do, then lip-sync the 'I'm not a perfect person' lyric (Hoobastank 'The Reason') as a playful admission.",
-  "signal": "SocialBee Oct 14 2026 TikTok trends list: 'Not a perfect person' featured trend",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-21",
-  "name": "Landmark Haunting Hook",
-  "desc": "Famous high-security location (White House jaisi jagah) ko backdrop bana ke supernatural claims — real jagah + creepy claim ka contrast hi share trigger hai, e.g. @leroyfafo.",
-  "signal": "FYPNow Horror TikTok Trends Oct 2026 (updated 1 day ago): @leroyfafo top video 7.7M views; top-5 horror videos mein 4 accounts 70K se kam followers wale",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-21",
-  "name": "Zero-Context Horror Visual",
-  "desc": "Caption aur hashtags bilkul blank — sirf unsettling imagery, audience khud decode karne comments/rewatch mein phansi rehti hai, e.g. @alethei23, @theparanormal1.",
-  "signal": "FYPNow Horror Oct 2026: 'creepy fact' aur minimalist-caption formats cold-start accounts pe highly effective",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-21",
-  "name": "Makeup Meal Prep (Plastic Wrap Makeup)",
-  "desc": "Puri base makeup raat ko cling wrap pe map karke rakho, subah sheet face pe press karke transfer — phir blend; process hi spectacle hai, Sam Begum ne popularise kiya.",
-  "signal": "Mathrubhumi Oct 19, 2026: Anne Hathaway / Dakota Johnson ne Allure pe is viral plastic-wrap hack pe react kiya",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-21",
-  "name": "High-Performance Cameo",
-  "desc": "Endurance/'hard' motivational figures achanak competitive settings mein appear hote hain — shock-and-awe discipline proof ke tor pe share hota hai.",
-  "signal": "FYPNow Motivational TikTok Trends Oct 2026 (updated 1 day ago): @daily.motivation.dosis top post 17.3M views, 74x follower multiplier",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-21",
-  "name": "CORTIS 'REDRED' Choreography Tutorials",
-  "desc": "K-pop group CORTIS ki 'REDRED' choreography mainstream cross ho gayi — tutorial/breakdown versions asli dance se zyada ban rahe hain.",
-  "signal": "Lightreel October 2026 weekly report: REDRED tutorials booming; Slayyyter 'Old Technology' dance 20%+ engagement",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-21",
-  "name": "Sped-Up Throwback Sound Montages",
-  "desc": "Purane tracks ke sped-up/remix versions pe glow-up aur emotional montages — 'Young Hearts Run Free' sped-up (prom/glow-up), 'Like a Prayer' house remix (emotional edits).",
-  "signal": "Lightreel October 2026 weekly report: dono sounds trending sounds list mein",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-21",
-  "name": "Beverage Bottle & Can Factory Process",
-  "desc": "Factory process screen pe — PET preform blowing, sterilization, high-speed filling, capping, labeling — upar step-by-step explanatory commentary har stage samjhati hai.",
-  "signal": "Fresh #howitsmade factory uploads Oct 18-19: 'How Fanta Glass & Plastic Bottles Are Made in Factory' (2 days ago), 'Raw Materials to Finished Cans — Full Process' (3 days ago)",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-21",
-  "name": "From-Scratch Cooking Process",
-  "desc": "Familiar packaged products (Skittles, cereal, frozen yogurt) bilkul scratch se banane ka pura process screen pe, slow narration har step explain karti hai — effort-vs-product contrast hi hook hai.",
-  "signal": "The Blast Oct 18, 2026: Nara Smith cookbook coverage — from-scratch format, reported ~6M average views per video, frozen-yogurt video ~3M views",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-22",
-  "name": "Sorry, I Won't Walk the Victoria's Secret Show",
-  "desc": "Creators fake-apologise for missing the Victoria's Secret Fashion Show, then give a ridiculous mundane excuse for why they 'couldn't make it'.",
-  "signal": "SocialBee Oct 21, 2026 update — current October 2026 TikTok trend, example @AbbieHerbert at a pumpkin patch",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-22",
-  "name": "How I'd React to the Age You…",
-  "desc": "Creator reacts with escalating facial expressions to numbers on screen — age you watched a movie, partner's age, price, salary — approval se shock tak.",
-  "signal": "SocialBee Oct 21, 2026 update — current October 2026 TikTok trend, adaptable to prices/salaries/habits",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-22",
-  "name": "Creepy Fact Storytime",
-  "desc": "One unsettling fact as on-screen text over a slow eerie clip, ending on a rewatch line, set to the music-box 'white rabbit's bells' sound.",
-  "signal": "SocialPilot Oct 12-25, 2026 — format #3, #creepyfacts Rising; 'white rabbit's bells' 17.5K videos, up 35% in ten days",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-22",
-  "name": "What iPad? Concealed-Object Denial",
-  "desc": "Creator denies knowing what an object is while it sits poorly concealed in plain sight — viewer spots it first, denial hi joke hai.",
-  "signal": "Lightreel Oct 10-17, 2026 weekly report — 'clearest TikTok-native audio trend', million-view recreations, example @ilovecakeyum",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-22",
-  "name": "TikTok Shop Black Friday Early Find",
-  "desc": "Seller replies to a viewer comment, tests a product on camera and gives an honest 'is it worth it?' verdict ahead of Black Friday deals.",
-  "signal": "SocialPilot Oct 12-25, 2026 — format #6; Creative Center US: #tiktokshopblackfriday went from zero to top of charts Oct 7-13",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-22",
-  "name": "Fan-Blade Practical Wipe Transition",
-  "desc": "Overhead camera fixed rehta hai, ceiling-fan blade ya hand wipe lens ko occlude karke har outfit/scene change hide karta hai on the beat.",
-  "signal": "New Engen Oct 2026 list — 'Fan Transition' #7; Lightreel Oct 10-17: @khvdenn ceiling-fan wipe",
-  "fit": "Editing-only ✅"
- },
- {
-  "date": "2026-10-22",
-  "name": "How-It's-Made Factory Process Commentary",
-  "desc": "Factory line screen pe — raw material chipped, pulped, pressed, packed — upar explanatory voiceover har stage step-by-step samjhata hai; e.g. @history_behindit 'How Paper Is Made from Wood'.",
-  "signal": "TikTok search result for @history_behindit factory-process video; SocialPilot Oct 12-25: start-to-finish single-technique formats Rising",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-22",
-  "name": "Overhead One-Pan Cooking Process Commentary",
-  "desc": "Tightly framed overhead one-pan cooking process first sizzle se fork-pull tak, explanatory voiceover/captions har step explain karte hain; examples @thisbykelsey, @cookinginthemidwest.",
-  "signal": "Lightreel Oct 10-17, 2026 Food section — tactile overhead cooking construction, @thisbykelsey breakout post cited",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-23",
-  "name": "Thank You Babeh (50/50 Twins)",
-  "desc": "Duos dress as the viral 50/50 Twins rapper duo (sideways hats, fake mustaches, chunky jewelry) and lip-sync the 'Thank You Babeh' audio with rhythmic bouncing and exaggerated delivery.",
-  "signal": "Know Your Meme editorial (published 2026-10-22): original sound used in 240K+ TikTok videos",
-  "fit": "Facecam / dance duo"
- },
- {
-  "date": "2026-10-23",
-  "name": "I'm So Sorry",
-  "desc": "Slideshows start with a flattering photo, peel back each edit slide-by-slide, and end with the 'real' version under a profuse apology — October's wave uses embarrassing or problematic old Halloween costumes.",
-  "signal": "Know Your Meme editorial: 'big surge in popularity in October 2026' via Halloween costume editions",
-  "fit": "Seasonal 🎃"
- },
- {
-  "date": "2026-10-23",
-  "name": "While They're Out Partying BTW",
-  "desc": "Caption 'While they're out partying BTW' over footage of a useless-but-impressive skill — the most viral versions show TikTokers practicing lightning-fast burger-wrapping hand technique.",
-  "signal": "Know Your Meme editorial (published 2026-10-22): 'surge between September and October 2026; most viral versions show TikTokers wrapping burgers incredibly fast'",
-  "fit": "Skill flex"
- },
- {
-  "date": "2026-10-23",
-  "name": "Closed on Sunday Choir (AI one-photo meme)",
-  "desc": "Upload one ordinary photo and AI places you dead-center, silent, while a huge robed choir sings and sways on a hillside behind you — remixes use cats, pets, even skeleton angels as leads.",
-  "signal": "Medium.com viral AI meme roundup (Oct 2026): AI versions appeared on TikTok ~Oct 14; kicked off by a cat-choir version; spreading under #closedonsunday",
-  "fit": "Faceless ✅"
- },
- {
-  "date": "2026-10-23",
-  "name": "POV: You're dating…",
-  "desc": "Creators imagine dating anything — a brand, fictional character, athlete, hobby, or inanimate object — and stitch exaggerated clips of its quirks, habits and stereotypes as a 'partner'.",
-  "signal": "SocialBee (October 21) 2026 TikTok trends list",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-23",
-  "name": "Look… (contrasting-reaction duo)",
-  "desc": "Two-person format: one points out something the other is supposedly afraid of for an exaggerated panic, then flips to reveal a second, much more personal fear.",
-  "signal": "SocialBee (October 21) 2026 TikTok trends list",
-  "fit": "Facecam format"
- },
- {
-  "date": "2026-10-23",
-  "name": "Bobbin Lacemaking Revival",
-  "desc": "Young makers film the slow, intricate process of bobbin lacemaking — twisting thread on bobbins, pinning patterns — with explanatory commentary, repackaging a Red-List endangered craft as textile art.",
-  "signal": "The Times (Oct 5) + FT (Oct 6) features cited in GentlemanCrafter Oct 13 craft news: young lacemakers like Florian Barrows attracting attention through online videos",
-  "fit": "Commentary/Process 🎙️"
- },
- {
-  "date": "2026-10-23",
-  "name": "Cozy Cardio",
-  "desc": "Low-intensity cardio filmed in cozy home settings — soft lighting, comfy outfits, gentle movement — framed as the anti-gym, low-pressure workout routine.",
-  "signal": "Parade (Oct 22) review of 'the viral low-intensity workout trend'",
-  "fit": "Lifestyle / fitness"
- }
+  {
+    "date": "2026-10-08",
+    "desc": "Halloween month: creepy-fact narration, horror storytime aur daily '31 Days of Halloween' series har jagah chal rahi hain.",
+    "fit": "Faceless ✅ — narration channels ke liye best fit",
+    "name": "Spooky Season — Creepy Facts Storytime",
+    "signal": "SocialPilot momentum table: #spookyseason + #halloweencostume 'Peaking', #creepyfacts 'Rising'"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Phone neeche rakh ke low-angle creepy walk, phir camera pull-back pe full Halloween costume reveal — 'Ramalama (Bang Bang)' audio pe.",
+    "fit": "Seasonal 🎃 — costume mein face wese hi chhupa hota hai",
+    "name": "Ramalama Costume Walk",
+    "signal": "Virlo + New Engen ki October weekly lists mein top costume format; Oct 31 tak chalega"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Love Island USA ke Corbin Mims audio pe lip-sync: apni relatable take ko full debate-mode mein defend karna.",
+    "fit": "Facecam format",
+    "name": "Two Fishes (Deadpan Defense)",
+    "signal": "New Engen: 'the week's defining argument audio'"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Asli pumpkin lens ke qareeb pakro to dost ka sar ghayab — neeche body dance/acting karti hai, Hocus Pocus remix pe.",
+    "fit": "Faceless ✅ — face pumpkin ke peeche",
+    "name": "Pumpkin Head Illusion",
+    "signal": "Virlo + New Engen trending formats leaderboard, October week 1"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Ingrid Michaelson ke khush track pe dance, lekin on-screen text mein din ki asli embarrassing chaos — clash hi joke hai.",
+    "fit": "Text-driven — kisi bhi niche pe adapt ho sakta hai",
+    "name": "Be OK (Chaos Captions)",
+    "signal": "Virlo October format leaderboard"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Camera spinning ceiling fan ke upar — har blade ek natural wipe, neeche har wipe pe naya outfit.",
+    "fit": "Fashion / facecam",
+    "name": "Ceiling-Fan Transition",
+    "signal": "Lightreel: format mainstream fashion mein cross ho gaya"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Date-ritual edits: 'WAKE UP! IT'S THE FIRST OF THE MONTH' dancing cows (Playboi Carti 'Sky'), Oct 1 Halloween montages — log identity ki tarah repost karte hain.",
+    "fit": "Editing-only ✅ — pura format cuts pe chalta hai",
+    "name": "First-of-the-Month Calendar Edits",
+    "signal": "Lightreel October report ke biggest viral formats mein"
+  },
+  {
+    "date": "2026-10-08",
+    "desc": "Family member ko apne wardrobe/style mein dress karke transformation reveal.",
+    "fit": "Family / facecam",
+    "name": "Turning My Mum Into Me",
+    "signal": "Startups.co.uk October roundup: trend ne hundreds of millions views liye"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Look… (Fear Flip)",
+    "desc": "Two-person format: pehla banda dusre ki supposed fear pe exaggerated panic karta hai, phir flip mein uski asli personal fear reveal hoti hai — contrast hi comedy hai.",
+    "signal": "SocialBee Oct 7 weekly list: October 2026 trending format",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Text From -A (Pretty Little Liars)",
+    "desc": "Apni chhupi habit/secret ko anonymous text style mein expose karo aur '- A' sign karo, PLL sound ke upar — har niche pe adapt hota hai.",
+    "signal": "MediaNug: 53.5K videos; Later + SocialBee Oct 2-7 lists",
+    "fit": "Faceless ✅ — text-on-screen format"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Did I Win This Trend? Costume Reveal",
+    "desc": "Normal clothes se drum-drop pe full Halloween costume cut, caption 'Did I win this trend?' — comments mein debate trigger hota hai.",
+    "signal": "SocialPilot Oct 5-10 cycle: 7 new reveal formats mein #1, #halloweencostume",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Patient Zero Wedding Edits",
+    "desc": "Wedding footage ko Taylor Swift 'Patient Zero' closing line pe slow cuts mein edit — first look, spin, best clip lyric pe save.",
+    "signal": "Virlo October weekly leaderboard",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Someone's Gotta Hold It Down",
+    "desc": "Event pe na jaane wale log apni 'fort holding' shift film karte hain — ADELA 'Ain't In LA' sound, ek unpolished shot + on-screen line.",
+    "signal": "Virlo via NapoleonCat Oct 1 roundup: biggest video 384K likes",
+    "fit": "Faceless ✅ — workplace/B-roll pe chal sakta hai"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Upside Down Transition",
+    "desc": "Lyrics pe mouth + hand gestures, transition pe before/after flip — har niche ke liye transition-driven format.",
+    "signal": "Later October 2026 roundup, Oct 2 entry",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Factory How-It's-Made Commentary",
+    "desc": "Massive factory process screen pe chalta hai (tiles, food, nails manufacturing) aur upar explanatory voiceover har step samjhata hai — satisfying + curiosity loop.",
+    "signal": "How-it's-made/factory-process videos fresh viral Oct mein (ceramic tiles factory video 2 din pehle, nail manufacturing 2 din pehle search mein viral tag ke sath)",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-09",
+    "name": "31 Days of Halloween Numbered Series",
+    "desc": "Roz ek numbered spooky video ('Day X/31') — bakery treats, horror picks, creepy facts — series habit se followers daily wapas aate hain.",
+    "signal": "SocialPilot: #31daysofhalloween trending this week Oct 5-11",
+    "fit": "Faceless ✅ — narration series ke liye best"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "MLB Postseason Reaction Edits",
+    "desc": "Playoff moments pe rapid reaction + edit videos — har game ke baad naya clip, sports feed pura postseason mode mein hai.",
+    "signal": "Virlo + SocialPilot Oct 5-11: MLB postseason har sports feed pe, #mlbplayoffs trending",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Halloween Home Tour Reveals",
+    "desc": "Decorated Halloween ghar ki room-by-room tour — har room ek naya reveal, creepy twist end pe.",
+    "signal": "SocialPilot Oct 2026 trends: reveal pattern — Halloween homes toured room by room",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Street Fighter Movie Edit Lane",
+    "desc": "Oct 16 ko Street Fighter theater release se pehle character edits + reaction videos ki ready-made lane khul gayi hai.",
+    "signal": "Virlo October: Oct 16 Street Fighter release = ready-made reaction/edit lane",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Cozy Fall Aesthetic Edits",
+    "desc": "#cozyseason / #autumnaesthetic cluster — instrumental sound pe slow fall visuals, comfort-watch loop.",
+    "signal": "Virlo October: cozy-fall cluster instrumental sound wave pe ride kar raha hai",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Restoration Process Commentary",
+    "desc": "Purani diesel engine / machine ki full restoration screen pe, upar explanatory commentary har step samjhati hai — example @restoration086 (132.8K likes wali restoration series).",
+    "signal": "TikTok search: @restoration086 full restoration parts 81K-132K likes; @handengineering factory tours active",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Once a Day / Week / Month Routine",
+    "desc": "Apni habits ko daily-weekly-monthly checklist mein divide karke save-worthy routine video — skincare, fitness, business sab pe chalta hai.",
+    "signal": "SocialBee trends list: routine ko schedule mein badalne wala format educational content mein strong",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "AI Influencer Family Universes",
+    "desc": "Ek AI character se pura family universe — sister, mother, wife, son — har character apna account, story aapas mein linked.",
+    "signal": "Unilad Tech Oct 8: AI influencer families expand ho rahi hain, copycat accounts already up",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Obsessica Transition",
+    "desc": "Malcolm Todd track pe I think I am a little bit obsessed transition — beat pe look/scene flip.",
+    "signal": "Virlo October: #obsessica abhi bhi October mein carry kar raha hai",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Some Place You're Not Going To Like",
+    "desc": "Lip-sync sound pe expectation vs reality — jo socha tha us se zyada bura nikla, contrast hi hook hai.",
+    "signal": "MediaNug Oct 1 2026 report: 13.5K videos on this sound",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Stop the Wedding Photo Carousels",
+    "desc": "Wedding regrets ko Ashe audio pe photo carousel mein confess karna — story slideshow format.",
+    "signal": "New Engen October 2026 list: Stop the Wedding carousels trending",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "HOCO Proposal Reveals",
+    "desc": "Homecoming proposal reveals aur hoco fit checks — har school event ek naya reveal video.",
+    "signal": "SocialPilot Oct 5-11 2026: #hoco + #hocoproposal trending this week",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Pink October Awareness Edits",
+    "desc": "Breast Cancer Awareness Month edits — pink-themed stories, fundraisers aur tribute formats.",
+    "signal": "SocialPilot Oct 5-11 2026: #pinkoctober trending this week",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "MLB World Series Edit Lane",
+    "desc": "Postseason se World Series tak har game ke baad rapid highlight + reaction edits ki lane.",
+    "signal": "SocialPilot + Virlo Oct 2026: #mlbplayoffs + #worldseries trending",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "High-Protein Food Process Commentary",
+    "desc": "Cottage cheese / high-protein recipe process screen pe, upar step-by-step commentary — FoodTok ka process format phir surge pe hai.",
+    "signal": "Accio October 2026 trends: cottage cheese revolution on FoodTok",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Smart Factory Automation Commentary",
+    "desc": "AI-guided factory machines ka process screen pe chalta hai, upar explanatory commentary har step samjhati hai — example @ctorobotics manufacturing video 86.6K likes.",
+    "signal": "TikTok search: @ctorobotics smart-factory commentary video 86.6K likes",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-11",
+    "name": "I Did Nothing (Deadpan Confession)",
+    "desc": "Trending audio pe aisi situations jahan bolne ko kuch hai hi nahi — deadpan confession hi comedy hai.",
+    "signal": "MediaNug Sept 29-Oct list: 5K videos on this audio",
+    "fit": "Faceless ✅ — text-on-screen pe adapt ho sakta hai"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Six Seven (Seis Sete) Finger-Count Dance",
+    "desc": "Brazilian funk beat pe rhythmic finger-counting + beat pe shrug — J-Hope/BTS amplification ke baad har demographic cross kar gaya.",
+    "signal": "Lightreel October 2026 weekly report: dominant dance trend, J-Hope version 75M+ views",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "AI Misunderstanding Skits",
+    "desc": "AI ke literal/misread responses pe comedy skits — prompt-vs-result gap hi joke hai, identity-reveal twists ke sath.",
+    "signal": "Lightreel October 2026: AI misunderstanding scenarios comedy formats mein strongly performing",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Hispanic Heritage Month Final-Week Spotlights",
+    "desc": "Heritage recipes, creator spotlights aur culture explainers — Oct 15 ko month khatam, final-week push chal raha hai.",
+    "signal": "SocialPilot Oct 2026 momentum table: #hispanicheritagemonth 'Steady', month runs to Oct 15",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "City Taste Test",
+    "desc": "Apne city ki local food spots ka honest taste-test review — TikTok ka apna challenge format, restaurants/cafes lead kar rahe hain.",
+    "signal": "SocialPilot Oct 2026: #citytastetest 'Peaking'",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Bow Bow Bow Dance / Fit Checks",
+    "desc": "'Bow Bow Bow' sound pe dance + outfit fit-check combos — fashion aur sports teams dono use kar rahe hain.",
+    "signal": "SocialPilot Oct 2026 momentum table: #bowbowbow 'Peaking'",
+    "fit": "Fashion / facecam"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Southern Gothic Fall Aesthetic",
+    "desc": "Dark, moody Southern Gothic fall visuals — instrumental sound wave pe slow aesthetic montages.",
+    "signal": "Virlo October 2026: Southern Gothic aesthetic cluster fall instrumental wave pe surfacing",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Wood-Fired Cooking Process Commentary",
+    "desc": "BBQ/wood-fired cooking ka pura process screen pe, upar step-by-step commentary — example @big.eatzbbq (BBQ process video 9,406 likes, Oct 4 indexed).",
+    "signal": "TikTok search Oct 2026: @big.eatzbbq cooking-process videos active; process+commentary format circulating",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Ice Production Factory Process Commentary",
+    "desc": "Factory mein ice production ka full process, upar explanatory voiceover har step samjhata hai — example @worldprocess1 / @amazingprocess1 factory-process accounts.",
+    "signal": "TikTok search: @amazingprocess1 'Watch how things are made in real factory' process series active",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Two Fishes",
+    "desc": "Creators lip-sync Corbin Mims' calm Love Island USA audio straight to camera to deadpan-defend a relatable hot take nobody asked them to defend.",
+    "signal": "New Engen October 2026 weekly tracker: Trend #1; Virlo Oct 5 update calls it the week's defining argument audio",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Ramalama Costume Walk",
+    "desc": "Low-angle shot stays on legs/shoes as creator stalks forward, then camera pulls back to reveal the full Halloween costume.",
+    "signal": "SocialPilot Oct 2026: 'Ramalama (Bang Bang)' at 430.7K videos, Stage: Rising; #halloweencostume 'Peaking'",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Pumpkin Head Illusion",
+    "desc": "Creator holds a real pumpkin up to the lens to cover a friend's head while the body below dances and flails chaotically.",
+    "signal": "New Engen October 2026 Trend #3 + Virlo Oct 5: top opening-week Halloween format, spooky Hocus Pocus remix",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Be OK",
+    "desc": "Creator does a happy, smiling dance to Ingrid Michaelson's track while on-screen text reveals a chaotic or embarrassing real situation.",
+    "signal": "New Engen October 2026 Trend #4 + Virlo Oct 5: contrast hook flagged most brand-safe format of the week",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Answer in One Word",
+    "desc": "Creator texts ChatGPT or a loved one 'answer in one word,' then screen-records the blunt one-word replies to increasingly personal questions.",
+    "signal": "New Engen October 2026 Trend #8 — post within 24-48h, AI-answer formats burn out fast",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Fan Transition",
+    "desc": "Creator lies flat, shot from directly overhead, while a fan blade wipes across frame to instantly switch outfits — e.g. @milenalife.style running 4 fall looks.",
+    "signal": "New Engen October 2026 Trend #7 (@milenalife.style); Lightreel Oct 2026: ceiling-fan transition mainstream in fashion",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Candy Factory How-It's-Made Process",
+    "desc": "Factory line on screen — sugar intake, mixing vats, cooking, pulling, forming, wrapping — with explanatory voiceover per step; e.g. @productsmaking chocolate toffee line.",
+    "signal": "TikTok search index: @productsmaking factory process video 170.7K likes / 3,006 comments; format surging on TikTok/Shorts",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Rug Restoration Deep-Clean Process",
+    "desc": "Filthy rug through flood, scrub, foam wash and extraction stages with commentary explaining the process — e.g. @atcrugwashing's 7-step submersion wash, @mrcleaningrugs.",
+    "signal": "CleanTok signal via TheList/TikTok: #carpetcleaning 588M views; @atcrugwashing + @mrcleaningrugs actively posting in US feed",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Clapping Cat Reaction Edits",
+    "desc": "Creators cut a reusable black-cat cutout that claps, smiles and reacts into unrelated setups — magic tricks, fails, wins — as modular reaction punctuation.",
+    "signal": "Lightreel Oct 3-10 2026: clapping-cat reactions at 1.9x median breakout, breakout example @merkurianin; searches repeatedly surfaced cat cutouts across niches",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Tweenslop Animation",
+    "desc": "Existing characters, game and meme assets are turned into elastic 2D puppets, stretched/duplicated/rotated to beat-synced electronic audio with white flashes and grotesque smiles.",
+    "signal": "Lightreel Oct 3-10 2026: tweenslop named an emerging visual language moving into anime/game templates, breakout example @s4b4bu",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "AI Animal Melodrama",
+    "desc": "Synthetic AI cats act out human relationship, family conflict and miniature tragedy stories with emotional overstatement and rapid narrative compression.",
+    "signal": "Lightreel Oct 3-10 2026: AI animal melodrama strongest breakout distribution among emerging families — 2.3x median breakout, 44-45% over 3x baseline",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Catallena K-Pop Choreography Revival",
+    "desc": "Idols restage an old fandom choreography in one plain continuous shot, fans then contextualize, edit and reproduce it in a nostalgia-to-participation loop.",
+    "signal": "Lightreel Oct 3-10 2026: LE SSERAFIM official @le_sserafim revival with Kim Chaewon triggered fan edits and 'Catallena 2026' searches within hours",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Proof-First Transformations",
+    "desc": "Video opens on the finished payoff — fuller hair, sauce pour, final photo — then rewinds to show criticism-to-proof method, e.g. @lifeaszeph hair fix, @eevisuals Tower Bridge photo, @makayla_thomas_fit payoff-first food.",
+    "signal": "Lightreel Oct 3-10 2026: 'Finished payoff -> method' and 'Criticism -> visual rebuttal' listed as top hook structures; beauty/food/photography all led with immediate proof",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Creepy Fact Storytime",
+    "desc": "One unsettling fact on screen over a slow eerie clip with a rewatch twist ending, cut to a quiet music-box bed.",
+    "signal": "SocialPilot Sep 25-Oct 10 2026: new format #creepyfacts Rising; sound at Early stage, 13K videos per TikTok count cited Oct 5 check",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Glass Jar Mega-Factory Process",
+    "desc": "Molten glass process on screen — silica batch mixing, furnace melting, gob shearing, press-and-blow forming, annealing and QA — with step-by-step explanatory commentary on top; examples in the @viralprocess / @manufactory05 how-it's-made lane.",
+    "signal": "Browser scan Oct 13-14 2026: fresh glass-jar factory process breakdown circulating 1 day ago with full silica-to-palletizing steps; Lightreel Oct 3-10 also flagged finished-payoff-first process demos",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Steel Forging & Knife-Making Process",
+    "desc": "Glowing steel forging on screen — hydraulic hammer, slag removal, shaping, grinding, heat-treating and finishing a ring/blade — narrated step-by-step; examples: @globalforge, @insidfactory, @knivesxproject.",
+    "signal": "TikTok process scan Oct 2026: @globalforge, @insidfactory and @knivesxproject forging/knife-making process videos surfacing in #satisfying #process searches; distinct from Oct 12-13 process examples",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Two Fishes",
+    "desc": "Lip-sync the Love Island USA audio straight to camera, deadpan-defending a take nobody asked you to defend, with debate hand gestures.",
+    "signal": "New Engen Oct 2026 list (updated Oct 14) Trend #1; Virlo Oct 2026: week's defining argument audio",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Ramalama Costume Walk",
+    "desc": "Phone low filming only legs stalking forward, then pull-back reveals the full Halloween costume on the Ramalama drop.",
+    "signal": "New Engen Oct 2026 Trend #2; SocialPilot Oct 2026: #halloweencostume Peaking",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Shoe Kick Transition",
+    "desc": "Balance a shoe in a karate-style kick, kick into it and reveal a completely new outfit in one unbroken shot.",
+    "signal": "Sozee Current TikTok Trends Oct 2026 (updated 1 day ago): growth-stage, early 2-4 week window",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "We Can't All Be Matcha Girls",
+    "desc": "Counter-wellness reveal: swap the matcha/workout stereotype for your real snack identity against a matcha-girl backdrop.",
+    "signal": "Sozee Oct 2026: growth-stage, spreading across unrelated niches",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Performative-Distress Alarm",
+    "desc": "Film yourself in morning distress racing to photograph household objects to turn off a scavenger-hunt alarm app, as a daily series.",
+    "signal": "Lightreel Viral UGC Oct 3-10: alarm format especially dominant; example @biancawakesup small-account breakout",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Grocery Scanning / Score-Reveal",
+    "desc": "Scan groceries, face or skincare with an app and hold for the score reveal — product is the demo, reveal is the payoff.",
+    "signal": "Lightreel Viral UGC Oct 3-10: scanning/score-reveal among biggest UGC formats; examples @reviewswithmia, @jizelalovesskincare",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Candle Molding Factory Process",
+    "desc": "Candle factory on screen — paraffin melting, wick alignment, mold injection, cooling, demolding, packing — with step-by-step voiceover.",
+    "signal": "Recent factory-process upload in search 3 days ago: 'How 10,000,000 Candles Are Molded Inside a Satisfying Factory'; Micta Process format",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Luxury Soap Factory Process",
+    "desc": "Luxury soap production line on screen — mixing, molding, cutting, finishing — with full-process commentary.",
+    "signal": "TikTok example @lume.official1: 'How Luxury Soap Is Made in a USA Factory (Full Process)', ~390K-471K likes across search snapshots",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "TikTok Scary Horror Contest",
+    "desc": "Creators recreate famous scary-movie scenes, horror edits aur makeup transformations TikTok ke official contest tag ke under post karte hain.",
+    "signal": "SocialPilot Oct 12-25 cycle: contest Creative Center charts pe 3 din mein top, #tiktokscaryhorrorcontest Rising; New Engen Oct US hashtags list",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "MLB Postseason / World Series Lane",
+    "desc": "Game-day team-color fits, watch-party content aur 'unbiased prediction' bits har game ke sath — series khatam honay tak roz naya content.",
+    "signal": "SocialPilot Oct 12-25 cycle: MLB League Championship Series har sports feed pe, #postseason Peaking",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Pray For Me Slow Mo",
+    "desc": "Friend groups bari bari exaggerated slow-mo cinematic entrances karte hain The Weeknd & Kendrick ke 'Pray For Me' pe.",
+    "signal": "New Engen October 2026 Trend #9 (updated Oct 14); example creator @gill_garrison",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Shaving Cream Prank Reveal",
+    "desc": "Parent shaving-cream prank join karne ka drama karta hai, phir camera flip pe kid pehle se foam mein covered reveal hota hai.",
+    "signal": "New Engen October 2026 Trend #10; example creator @lifeasfive",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Patient Zero Wedding Day",
+    "desc": "Wedding-day clips (first look se kiss tak) Taylor Swift 'Patient Zero' ki line pe cinematic edit mein cut hotay hain.",
+    "signal": "New Engen October 2026 Trend #5; sound US trending sounds mein #2 (MusicMaestro Week 40)",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Stop the Wedding",
+    "desc": "Photo carousel 'Stop the wedding, but…' se shuru — wedding-day regret (dress, decor, family drama) confess hota hai.",
+    "signal": "New Engen October 2026 Trend #6 — is cycle mein naya",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Find the Beat — Jersey Club Partner Challenge",
+    "desc": "Ek partner ko slowed Jersey Club track ka dance aata hai, dusre ko beat live dhoondhna hai — reaction hi joke hai.",
+    "signal": "SocialPilot Oct 12-25 Format #4 (new this cycle); sound 38.9K videos, stage Early; #2persondance Rising",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Start-to-Finish Process Close-Ups",
+    "desc": "Ek technique/process close-up mein start se finish tak film hota hai — craft, technique, seasonal making — calm trending sound aur explanatory overlay/voiceover ke sath.",
+    "signal": "SocialPilot Oct 12-25 cycle: 'Where To Find Me' sound 177.6K videos Rising, technique close-ups ke liye recommended; honest note: aaj koi naya factory subject verify nahi hua",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Did I Win This Trend? Costume Reveal",
+    "desc": "Normal clothes se Ramalama drum drop pe full Halloween costume reveal, caption mein 'Did I win this trend?' — comments mein argument hi reach hai.",
+    "signal": "SocialPilot Oct 12-25 cycle Format #1 (new this cycle); Ramalama sound 456.2K videos, Peak stage",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Early Voting Info Lane",
+    "desc": "Nonpartisan early-voting info — hours, parking, accessibility, 'I voted' moments — local US audiences ke liye daily posts Nov 3 tak.",
+    "signal": "SocialPilot Oct 12-25 cycle: #earlyvoting Creative Center Tech chart top pe Oct 13",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "TikTok Shop Black Friday Early Deals",
+    "desc": "Early Black Friday 'is it worth it?' reviews aur comment-reply product demos — deal launch se pehle hi shoppable content bhar raha hai.",
+    "signal": "SocialPilot Oct 12-25 cycle: #tiktokshopblackfriday / #tiktokshopcybermonday Oct 7-13 mein zero se Creative Center top tak",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "My Reaction — Facial Ranking",
+    "desc": "Niche ki cheez pick karo aur sirf facial expressions se honest ranking do — koi script nahi, comments mein behes hi hook hai.",
+    "signal": "Later.com trend dated Oct 16, 2026: 'My reaction' October roundup mein naya",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Getting Robbed (Distracted Creator)",
+    "desc": "Ek shot: creator phone mein glued, background mein bag 'stolen' ho jata hai — punchline woh cheez hai jis se audience distract hoti hai.",
+    "signal": "Later.com trend dated Oct 16, 2026; audio: original sound - hector mort",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "October Is All About Me",
+    "desc": "Drake ki 'October is all about me' line pe simple video + on-screen text — main-character month energy, kisi bhi niche pe fit.",
+    "signal": "Later.com Oct 16, 2026 seasonal sound alert: line all over FYP",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Is It Worth It? Product Demo Process",
+    "desc": "Product ko on-screen step-by-step demo / process mein dikhao with explanatory voiceover — kaisa kaam karta hai, phir worth-it verdict.",
+    "signal": "SocialPilot Oct 12-25 cycle: early Black Friday tags mein comment-reply demos aur honest early reviews bhar rahe hain",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "What iPad? (Visual Denial)",
+    "desc": "Creator kisi cheez ko deny karta hai jab ke wohi cheez frame mein wazeh chhupi hui hai — accusation, exaggerated denial, audience pehle spot karti hai.",
+    "signal": "Lightreel October 2026 weekly report: 'clearest TikTok-native audio trend', sound page pe current million-view recreations ka dense cluster",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Halloween Porch Reveal",
+    "desc": "Decorated porch ko street se film karo, phir family/neighbors ke reaction pe cut — log apne porch ke liye idea save karte hain.",
+    "signal": "SocialPilot Oct 2026 third-week list Format #7; #halloweendecor / #spookyseason, 'Spooky, Scary Skeletons (House VIP Remix)' business-approved",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Proof-First (Claim-Evidence-Payoff)",
+    "desc": "Pehle claim, phir on-screen evidence/experiment, phir payoff — routine ki jagah proof dikhana har niche mein chal raha hai (food, beauty, fitness, home, tech).",
+    "signal": "Lightreel Viral UGC Oct 10-17 2026: 'Proof Is Replacing Polish' — small creators established accounts ko outrun kar rahe hain",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Not a Perfect Person (Confession Lyric)",
+    "desc": "'I'm not a perfect person' lyric pe text overlay mein apni flaw/embarrassing habit confess karo — lip-sync admission hi joke hai.",
+    "signal": "SocialBee Oct 14 2026 weekly list: October trending format",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Can I Ride Duo Dance",
+    "desc": "Do logon ki short, learnable duo-dance routine ek hi sound pe — couples/friends har jagah copy kar rahe hain.",
+    "signal": "Lightreel October 2026: 'broadest active dance sound', example @sierraandlaineydance current breakout",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Hello October — Autumn Technique Close-Ups",
+    "desc": "Ek technique/cheez ko start se finish tak close-up mein dikhao calm autumn sound pe — recipes, handmade, hair, hotel tours sab pe fit.",
+    "signal": "SocialPilot Oct 2026 sounds: 'Hello, October' 143.7K videos Rising; 'Where To Find Me' 177.6K videos Rising, technique close-ups ke liye recommended",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Sensory Process Footage Commentary",
+    "desc": "Process screen pe start-to-finish chalta hai (food/factory/craft) aur upar explanatory overlay/voiceover har step samjhata hai — example lane @smart_process34 (cassava root se instant noodles process series).",
+    "signal": "Lightreel Viral UGC Oct 10-17 2026: sensory process footage week ke defining traits mein; @smart_process34 process series TikTok search index mein active",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-18",
+    "name": "One-Minute Ghost Stories",
+    "desc": "Creator ek short local legend/haunted jagah ki story simple dark shot (hallway, flickering candle) pe narrate karta hai — 60s mein puri story.",
+    "signal": "TLinky TikTok Halloween Trends 2026 list: One-Minute Ghost Stories format; local businesses ko edge (apne town ki legend koi copy nahi kar sakta)",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "DIP ON EM One-Take",
+    "desc": "Ek ya do logon ki one-take easy dance SouthMemphisHypeman ke 'DIP ON EM' pe — itni simple ke coffee shops/teams uniform mein copy kar rahe hain.",
+    "signal": "SocialPilot Oct 12-25 cycle: 'DIP ON EM' 49.3K se 128.4K videos in 10 days, Rising",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Bounce It Duo Reactions",
+    "desc": "Do-person dances aur 'go berserk' reaction clips 'Bounce it' sound pe — weekend-energy chaos hi hook hai.",
+    "signal": "SocialPilot Oct 12-25 cycle: 'Bounce it' 260.5K videos, Peak stage (157.5K se up Oct 5 ke baad)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "But Where? Shrug",
+    "desc": "Simple sawal ('Fancy a coffee?') ke baad playful shrugs se funny backdrops reveal hote hain — har niche pe backdrop-swap adapt hota hai.",
+    "signal": "Sozee Current TikTok Trends Oct 2026 (updated 5 days ago): growth-stage format",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Group Costume Reveals",
+    "desc": "Team/friend-group ek sath costume reveal karte hain — offices, salons, friend groups ke group reveals solo reveals ko beat kar rahe hain.",
+    "signal": "SocialPilot Oct 2026 hashtag table: #groupcostume 'Rising'",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "POV Comedy Escalation",
+    "desc": "Ek chhoti problem (kids ki crunchy cough) har cut pe escalate hoti hai — mask, gloves, full hazmat suit, phir empty hallway; koi setup nahi, sirf visual escalation.",
+    "signal": "Lightreel Oct 10-17 2026: strongest comedy example, @amanlikejoseph small-account breakout (surrounding posts low thousands)",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Mystery Packaging Cliffhanger",
+    "desc": "Bright mystery parcels khareed ke kholna next part tak postpone karna — unresolved contents hi engine hai, unboxing nahi.",
+    "signal": "Lightreel Oct 10-17 2026: @cinthiavictoriacorea Mercado Libre parcels cliffhanger commerce breakout",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Autumn Minute Handmade Process",
+    "desc": "Ek cheez garden/hand se start-to-finish ek minute mein banti hui dikhao with explanatory overlay — harvest, hike, DIY process calm acoustic bed pe.",
+    "signal": "SocialPilot Oct 12-25 sounds: 'Autumn Minute' 78.4K videos, Rising — one-minute handmade/garden clips ke liye recommended",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Slow Satisfying Seasonal Process",
+    "desc": "Nail/cafe/florist ka ek slow satisfying seasonal process 'we fell in love in october' pe — process hi content hai, koi face zaroori nahi.",
+    "signal": "SocialPilot Oct 12-25 sounds: 'we fell in love in october' 2M videos, Peak — slow satisfying seasonal process ke liye listed",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Two Fishes Deadpan Defense",
+    "desc": "Creators lip-sync Corbin Mims' Love Island USA audio straight to camera, deadpan-defending an unhinged take nobody asked about with TED-talk hand gestures.",
+    "signal": "New Engen weekly list Oct 14: #1 trend; Virlo Oct roundup calls it the week's defining argument audio (via New Engen)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Fan Blade Transition",
+    "desc": "Overhead fixed frame lying down; each passing fan blade wipes into a new fall outfit — 3-4 looks in one video, e.g. @milenalife.style and @khvdenn.",
+    "signal": "New Engen Oct 14: #7 trend; Lightreel Oct 10-17 flags fan-blade transition as week's fashion breakout (@khvdenn)",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Answer in One Word",
+    "desc": "Creators screen-record asking ChatGPT, friends or family personal questions with a strict one-word-only rule — blunt one-word answers are the punchline.",
+    "signal": "New Engen weekly list Oct 14: #8 trend 'Answer in One Word'",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Creepy Fact Storytime",
+    "desc": "One unsettling fact in text overlay over a slow eerie clip, ending on a rewatch-twist line, bedded with the music-box 'white rabbit's bells' sound.",
+    "signal": "SocialPilot Oct 12-25: format #3, #creepyfacts 'Rising'; 'white rabbit's bells' 17.5K videos, Early stage, up 35% in ten days (via SocialPilot/TikTok)",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "TikTok Shop Black Friday Early Find",
+    "desc": "Sellers reply to a real viewer comment, test the product on camera and give an honest 'is it worth it?' verdict weeks before Black Friday deals go live.",
+    "signal": "SocialPilot Oct 12-25: #tiktokshopblackfriday 'Rising'; tags went from zero to top of Creative Center charts Oct 7-13",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "One-Variable Baking Process Experiment",
+    "desc": "Cooking process with explanatory voiceover: change ONE ingredient at a time vs a control, narrate why, close-up texture proof — e.g. @brownbutterbakesleeds cookie experiment.",
+    "signal": "Lightreel Viral UGC Oct 10-17: 'I wanted to see what happens if...' named week's cleanest educational formula; sensory process footage defined the week",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Inside the MASSIVE Factory Process",
+    "desc": "Factory/manufacturing process with explanatory narration and timestamp breakdown (melting > milling > molding > QA > packing) — 'How 10,000,000 X are made' format.",
+    "signal": "Multiple 'How 10,000,000 X Are Made Inside a Satisfying Factory' #howitsmade uploads Oct 13-17; Lightreel Oct 10-17 flags sensory process footage as week-defining",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Not a Perfect Person Confession",
+    "desc": "Text overlay exposes a flaw/embarrassing habit you know you shouldn't do, then lip-sync the 'I'm not a perfect person' lyric (Hoobastank 'The Reason') as a playful admission.",
+    "signal": "SocialBee Oct 14 2026 TikTok trends list: 'Not a perfect person' featured trend",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Landmark Haunting Hook",
+    "desc": "Famous high-security location (White House jaisi jagah) ko backdrop bana ke supernatural claims — real jagah + creepy claim ka contrast hi share trigger hai, e.g. @leroyfafo.",
+    "signal": "FYPNow Horror TikTok Trends Oct 2026 (updated 1 day ago): @leroyfafo top video 7.7M views; top-5 horror videos mein 4 accounts 70K se kam followers wale",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Zero-Context Horror Visual",
+    "desc": "Caption aur hashtags bilkul blank — sirf unsettling imagery, audience khud decode karne comments/rewatch mein phansi rehti hai, e.g. @alethei23, @theparanormal1.",
+    "signal": "FYPNow Horror Oct 2026: 'creepy fact' aur minimalist-caption formats cold-start accounts pe highly effective",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Makeup Meal Prep (Plastic Wrap Makeup)",
+    "desc": "Puri base makeup raat ko cling wrap pe map karke rakho, subah sheet face pe press karke transfer — phir blend; process hi spectacle hai, Sam Begum ne popularise kiya.",
+    "signal": "Mathrubhumi Oct 19, 2026: Anne Hathaway / Dakota Johnson ne Allure pe is viral plastic-wrap hack pe react kiya",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "High-Performance Cameo",
+    "desc": "Endurance/'hard' motivational figures achanak competitive settings mein appear hote hain — shock-and-awe discipline proof ke tor pe share hota hai.",
+    "signal": "FYPNow Motivational TikTok Trends Oct 2026 (updated 1 day ago): @daily.motivation.dosis top post 17.3M views, 74x follower multiplier",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "CORTIS 'REDRED' Choreography Tutorials",
+    "desc": "K-pop group CORTIS ki 'REDRED' choreography mainstream cross ho gayi — tutorial/breakdown versions asli dance se zyada ban rahe hain.",
+    "signal": "Lightreel October 2026 weekly report: REDRED tutorials booming; Slayyyter 'Old Technology' dance 20%+ engagement",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Sped-Up Throwback Sound Montages",
+    "desc": "Purane tracks ke sped-up/remix versions pe glow-up aur emotional montages — 'Young Hearts Run Free' sped-up (prom/glow-up), 'Like a Prayer' house remix (emotional edits).",
+    "signal": "Lightreel October 2026 weekly report: dono sounds trending sounds list mein",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Beverage Bottle & Can Factory Process",
+    "desc": "Factory process screen pe — PET preform blowing, sterilization, high-speed filling, capping, labeling — upar step-by-step explanatory commentary har stage samjhati hai.",
+    "signal": "Fresh #howitsmade factory uploads Oct 18-19: 'How Fanta Glass & Plastic Bottles Are Made in Factory' (2 days ago), 'Raw Materials to Finished Cans — Full Process' (3 days ago)",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-21",
+    "name": "From-Scratch Cooking Process",
+    "desc": "Familiar packaged products (Skittles, cereal, frozen yogurt) bilkul scratch se banane ka pura process screen pe, slow narration har step explain karti hai — effort-vs-product contrast hi hook hai.",
+    "signal": "The Blast Oct 18, 2026: Nara Smith cookbook coverage — from-scratch format, reported ~6M average views per video, frozen-yogurt video ~3M views",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Sorry, I Won't Walk the Victoria's Secret Show",
+    "desc": "Creators fake-apologise for missing the Victoria's Secret Fashion Show, then give a ridiculous mundane excuse for why they 'couldn't make it'.",
+    "signal": "SocialBee Oct 21, 2026 update — current October 2026 TikTok trend, example @AbbieHerbert at a pumpkin patch",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "How I'd React to the Age You…",
+    "desc": "Creator reacts with escalating facial expressions to numbers on screen — age you watched a movie, partner's age, price, salary — approval se shock tak.",
+    "signal": "SocialBee Oct 21, 2026 update — current October 2026 TikTok trend, adaptable to prices/salaries/habits",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Creepy Fact Storytime",
+    "desc": "One unsettling fact as on-screen text over a slow eerie clip, ending on a rewatch line, set to the music-box 'white rabbit's bells' sound.",
+    "signal": "SocialPilot Oct 12-25, 2026 — format #3, #creepyfacts Rising; 'white rabbit's bells' 17.5K videos, up 35% in ten days",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "What iPad? Concealed-Object Denial",
+    "desc": "Creator denies knowing what an object is while it sits poorly concealed in plain sight — viewer spots it first, denial hi joke hai.",
+    "signal": "Lightreel Oct 10-17, 2026 weekly report — 'clearest TikTok-native audio trend', million-view recreations, example @ilovecakeyum",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "TikTok Shop Black Friday Early Find",
+    "desc": "Seller replies to a viewer comment, tests a product on camera and gives an honest 'is it worth it?' verdict ahead of Black Friday deals.",
+    "signal": "SocialPilot Oct 12-25, 2026 — format #6; Creative Center US: #tiktokshopblackfriday went from zero to top of charts Oct 7-13",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Fan-Blade Practical Wipe Transition",
+    "desc": "Overhead camera fixed rehta hai, ceiling-fan blade ya hand wipe lens ko occlude karke har outfit/scene change hide karta hai on the beat.",
+    "signal": "New Engen Oct 2026 list — 'Fan Transition' #7; Lightreel Oct 10-17: @khvdenn ceiling-fan wipe",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "How-It's-Made Factory Process Commentary",
+    "desc": "Factory line screen pe — raw material chipped, pulped, pressed, packed — upar explanatory voiceover har stage step-by-step samjhata hai; e.g. @history_behindit 'How Paper Is Made from Wood'.",
+    "signal": "TikTok search result for @history_behindit factory-process video; SocialPilot Oct 12-25: start-to-finish single-technique formats Rising",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Overhead One-Pan Cooking Process Commentary",
+    "desc": "Tightly framed overhead one-pan cooking process first sizzle se fork-pull tak, explanatory voiceover/captions har step explain karte hain; examples @thisbykelsey, @cookinginthemidwest.",
+    "signal": "Lightreel Oct 10-17, 2026 Food section — tactile overhead cooking construction, @thisbykelsey breakout post cited",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Thank You Babeh (50/50 Twins)",
+    "desc": "Duos dress as the viral 50/50 Twins rapper duo (sideways hats, fake mustaches, chunky jewelry) and lip-sync the 'Thank You Babeh' audio with rhythmic bouncing and exaggerated delivery.",
+    "signal": "Know Your Meme editorial (published 2026-10-22): original sound used in 240K+ TikTok videos",
+    "fit": "Facecam / dance duo"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "I'm So Sorry",
+    "desc": "Slideshows start with a flattering photo, peel back each edit slide-by-slide, and end with the 'real' version under a profuse apology — October's wave uses embarrassing or problematic old Halloween costumes.",
+    "signal": "Know Your Meme editorial: 'big surge in popularity in October 2026' via Halloween costume editions",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "While They're Out Partying BTW",
+    "desc": "Caption 'While they're out partying BTW' over footage of a useless-but-impressive skill — the most viral versions show TikTokers practicing lightning-fast burger-wrapping hand technique.",
+    "signal": "Know Your Meme editorial (published 2026-10-22): 'surge between September and October 2026; most viral versions show TikTokers wrapping burgers incredibly fast'",
+    "fit": "Skill flex"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Closed on Sunday Choir (AI one-photo meme)",
+    "desc": "Upload one ordinary photo and AI places you dead-center, silent, while a huge robed choir sings and sways on a hillside behind you — remixes use cats, pets, even skeleton angels as leads.",
+    "signal": "Medium.com viral AI meme roundup (Oct 2026): AI versions appeared on TikTok ~Oct 14; kicked off by a cat-choir version; spreading under #closedonsunday",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "POV: You're dating…",
+    "desc": "Creators imagine dating anything — a brand, fictional character, athlete, hobby, or inanimate object — and stitch exaggerated clips of its quirks, habits and stereotypes as a 'partner'.",
+    "signal": "SocialBee (October 21) 2026 TikTok trends list",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Look… (contrasting-reaction duo)",
+    "desc": "Two-person format: one points out something the other is supposedly afraid of for an exaggerated panic, then flips to reveal a second, much more personal fear.",
+    "signal": "SocialBee (October 21) 2026 TikTok trends list",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Bobbin Lacemaking Revival",
+    "desc": "Young makers film the slow, intricate process of bobbin lacemaking — twisting thread on bobbins, pinning patterns — with explanatory commentary, repackaging a Red-List endangered craft as textile art.",
+    "signal": "The Times (Oct 5) + FT (Oct 6) features cited in GentlemanCrafter Oct 13 craft news: young lacemakers like Florian Barrows attracting attention through online videos",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Cozy Cardio",
+    "desc": "Low-intensity cardio filmed in cozy home settings — soft lighting, comfy outfits, gentle movement — framed as the anti-gym, low-pressure workout routine.",
+    "signal": "Parade (Oct 22) review of 'the viral low-intensity workout trend'",
+    "fit": "Lifestyle / fitness"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Nostalgic POV with 'The Night We Met' instrumental",
+    "desc": "Creators lay the slowed Lord Huron instrumental over nostalgic memory slideshows (old photos, students, pets) with a transition to the present",
+    "signal": "Virlo weekly (Oct 24, 2026): #1 format, Rising — 237 creators this week, +176% vs last week",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Don't Call Me, Don't Come By My House",
+    "desc": "Lip-sync to audio of a girl saying 'Don't call me. Don't come by my house. We're done' over relatable fed-up/dramatic situations",
+    "signal": "Virlo weekly (Oct 24, 2026): #2 format, Fresh — 176 creators, new this week",
+    "fit": "Lip-sync format"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Paparazzi Bowing",
+    "desc": "Pose or dance to sped-up Lady Gaga 'Paparazzi', then bow deeply at the beat drop",
+    "signal": "Virlo weekly (Oct 24, 2026): Fresh — 30 creators, +2900% vs last week",
+    "fit": "Dance format"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Teaching Him New Habits",
+    "desc": "Woman performs exaggerated movements (bowing, hair flip) to a specific sound and the man copies them like he's being trained",
+    "signal": "Virlo weekly (Oct 24, 2026): Peaking — 43 creators",
+    "fit": "Duo format"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Halloween Costume Loading Reveal",
+    "desc": "Plain clothes + 'Halloween costume loading...' text with a loading icon, then cut straight to the full costume",
+    "signal": "Virlo weekly (Oct 24, 2026): Fresh — 15 creators, new this week",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Pumpkin Head Illusion",
+    "desc": "Hold a real pumpkin by the stem near the camera so it swallows your friend's head, then let the body below dance/flail to a spooky Hocus Pocus remix",
+    "signal": "New Engen October 2026 trend report; genznewz Oct 23 writeup — one prop, zero editing, golden hour works best",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Molten Glass / Glassblowing Process Commentary",
+    "desc": "Molten-glass shaping and flameworking footage with an educational voiceover explaining each step of what the artisan is doing",
+    "signal": "RIT news (Oct 2026): glass alumna's educational flameworking TikToks viral, one over 1M views; e.g. @artglass12 and @dbhdh98",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-24",
+    "name": "How Many Taps Until Your Cat Gets Mad?",
+    "desc": "Tap your cat (or pet/partner) repeatedly while counting the taps until they snap or react",
+    "signal": "Virlo weekly (Oct 24, 2026): Fresh — 17 creators, new this week",
+    "fit": "Pet/Reaction 🐱"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "ChatGPT Millionaire in 30 Days",
+    "desc": "Lip-sync skit: a man asks ChatGPT how to become a millionaire in 30 days and is told to 'get a job'; creators act it out, often with an AI face/pet filter.",
+    "signal": "Virlo: Fresh, 69 creators this week (new this week), 25 Oct 2026",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Pick Your Favorite Thing Challenge",
+    "desc": "A couple stands behind a table of items and, on the count of three, both grab their favourite thing — the reaction lands when one picks their partner instead of an object.",
+    "signal": "Virlo: Rising, 28 creators this week (+300% vs last week)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Rock Paper Scissors Food Challenge",
+    "desc": "Friends/family play rock paper scissors over a large shared plate; the winner takes a huge bite while the losers wait or run away.",
+    "signal": "Virlo: Rising, 20 creators this week (+100% vs last week)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Two Fishes",
+    "desc": "Creators lip-sync the Love Island USA sound to straight-faced defend a questionable opinion as if its logic were perfectly sound.",
+    "signal": "New Engen October 2026 TikTok trends list",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Answer in One Word",
+    "desc": "Creators challenge ChatGPT, friends or family to answer personal questions using exactly one word, screen-recorded or shown as on-screen text.",
+    "signal": "New Engen October 2026 TikTok trends list",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "City Taste Test",
+    "desc": "Creators review a food a city is known for, filmed in that city — an easy food/travel format any local creator can copy.",
+    "signal": "TikTok Creative Center (US, 30 days, pulled 7 Oct 2026 via Dash Social): #citytastetest ranked #1, 1.9M posts, 2B views",
+    "fit": "Food / travel format"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "How It's Made Factory Process Commentary",
+    "desc": "Factory/manufacturing footage with an explanatory commentary/voiceover walking viewers through how an everyday product is made, step by step. Example account: @viralprocess ('How It's Made in Factory').",
+    "signal": "TikTok: @viralprocess 'How It's Made in Factory' videos; format family also covered by Science Channel's How It's Made",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Leave No Crumbs Leftover Cooking",
+    "desc": "Creators turn forgotten fridge ingredients and leftovers into a full meal, with commentary on using what is already at home instead of binning it.",
+    "signal": "GenZ NewZ 14 Oct 2026: TikTok's Leave No Crumbs campaign; FoodTok passed 9.7M posts worldwide",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Editing How I See Myself Moodboard",
+    "desc": "Photo/clip moodboard edit of yourself or a subject, opening with a text card 'Editing how I see myself because I'm so cool and awesome'.",
+    "signal": "Virlo trends page, updated Oct 26, 2026: Fresh — 85 creators this week",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Don't Call Me, Don't Come By My House",
+    "desc": "Lip-sync to the fed-up 'Don't call me. Don't come by my house. We're done' audio over relatable dramatic situations.",
+    "signal": "Virlo trends page, updated Oct 26, 2026: Fresh — 101 creators this week",
+    "fit": "Lip-sync format"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "My Ride Is Here Broom AI",
+    "desc": "AI shot of a person, cat or dog floating past a car window on a witch's broom, smirking 'sorry, my ride is here', then zooming off — Halloween AI meme.",
+    "signal": "Medium AI-trend guide published Oct 26, 2026: #myrideishere / #broomridingtrend",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "2016 vs 2026 AI Self-Meet",
+    "desc": "Old photo (2016) meets current self in one AI video — younger self walks up, looks you over, asks why you look exhausted.",
+    "signal": "MakeViral trend page, Oct 15, 2026: part of the '2026 is the new 2016' nostalgia wave",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Multi-Part Storytelling Dilemmas",
+    "desc": "Small accounts win with multi-part narratives and interactive high-stakes dilemmas — financial mysteries, supernatural choices, cliffhanger parts.",
+    "signal": "FYPNow Storytelling TikTok Trends, October 2026: @justkhandee 16.5M views on 61.6K followers; @inkwell.dilemmas 7.8M on 11.3K",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Rumpelstiltskin AI Meme (still circulating)",
+    "desc": "AI imp dances for a woman in a barn, turns straw to gold, she kisses him into a prince — now swapped for other characters in remixes.",
+    "signal": "TikTok Weekly Wrap-Up Oct 19-25, 2026 (1 day ago): NBC/Know Your Meme AI origin, still the week's meme",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Property Tour Commentary Process",
+    "desc": "Room-by-room luxury property tour on screen with explanatory commentary — price reveal drives comments and debate.",
+    "signal": "Briefly/Tuko Oct 13, 2026 press on @pashapropertyglobal's Oct 9 Cape Town tour going viral",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Rock Paper Scissors Food Challenge",
+    "desc": "Two players play rock-paper-scissors, loser/winner eats — quick food-challenge rounds, easy to film anywhere.",
+    "signal": "Virlo trends page, updated Oct 26, 2026: Rising — 71 creators this week",
+    "fit": "Facecam / food challenge"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "It's Making Sense Now",
+    "desc": "Lip-sync to 'It's making sense now… I get it,' pretending to finally understand an illogical situation",
+    "signal": "Virlo Oct 27 Fresh — 206 creators in 7 days (+20,500%), ranked #1",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Shaking Head AI Meme",
+    "desc": "CapCut template makes a photo of a person or animal slowly shake its head, captioned about an annoying friend",
+    "signal": "Virlo Oct 27 Fresh — 126 creators this week, flagged new this week",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Nostalgic POV with 'The Night We Met' Instrumental",
+    "desc": "Slowed Lord Huron instrumental over a nostalgic/emotional POV, then a transition to the present",
+    "signal": "Virlo Oct 27 Peaking — 117 creators this week (+14%)",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Halloween Costume Loading Reveal",
+    "desc": "Plain clothes with 'Halloween costume loading…' text, then a full costume reveal transition",
+    "signal": "Virlo Oct 27 Rising — 30 creators (+329%); SocialPilot: #halloweencostume Peaking",
+    "fit": "Seasonal 🎃"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Growing Up Beside You",
+    "desc": "An old photo with a partner or pet (ages on screen) transitions to a current video of you both",
+    "signal": "Virlo Oct 27 Fresh — 28 creators this week, flagged new this week",
+    "fit": "Photo-transition format"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Paparazzi Bowing",
+    "desc": "To sped-up Lady Gaga 'Paparazzi,' creators pose/dance for camera, then bow deeply at the beat drop",
+    "signal": "Virlo Oct 27 Rising — 39 creators this week (+255%)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "How It's Made — Factory Process Commentary",
+    "desc": "Factory/manufacturing process on screen with explanatory commentary walking through each step",
+    "signal": "TikTok search format examples: @foodtechfeed (Jelly Belly factory) and @history_behindit (Tabasco 700K bottles/day)",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Furniture Factory Tour — Satisfying Build Process",
+    "desc": "Real factory tour shows furniture being built/finished on camera, with behind-the-scenes narration",
+    "signal": "TikTok search format example: @black.furniture.shop factory-tour video (5,967 likes, 494 comments)",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Kung Fu Pet and Baby Training",
+    "desc": "Hold a pet or baby and move its limbs (or a paper-strip prop) to fake martial-arts moves to fast punching audio",
+    "signal": "Virlo Oct 28 Fresh — 209 creators this week",
+    "fit": "Faceless ✅"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Don't Call Me, Don't Come By",
+    "desc": "Lip-sync to a girl saying she's done with someone, with text about a fed-up, dramatic situation",
+    "signal": "Virlo Oct 28 Fresh — 76 creators this week (+744%)",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Rock Paper Scissors Food Challenge",
+    "desc": "Play rock-paper-scissors over a big plate; winner takes a huge bite while losers wait",
+    "signal": "Virlo Oct 28 Rising — 62 creators this week (+933%)",
+    "fit": "Group / facecam format"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Skull Cap Trend",
+    "desc": "Comedic glow-up: awkward look to confident persona after putting on a (usually black) skull cap",
+    "signal": "Know Your Meme Oct 27 — @antoniopieterss 12.8M views / 2.3M likes in 9 days",
+    "fit": "Facecam format"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Prime 1v1 Basketball AI Remake",
+    "desc": "Streetball dunk + taunt recreated as AI clips, now via a CapCut template",
+    "signal": "Medium Oct 27 — 503.7K TikTok posts in discover hub; @teuteuf6 AI remake 1.1M views by Oct 24",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "I'm So Sorry Childhood Photo Carousel",
+    "desc": "Photo carousel from an AI-altered/childhood photo cycling until the real funny childhood image is revealed, to Harry Styles' 'Coming Up Roses'",
+    "signal": "Her Campus Oct 27 — reported taking over FYPs",
+    "fit": "Editing-only ✅"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Factory / How It's Made Process Commentary",
+    "desc": "Factory/workshop footage of everyday products being made, with step-by-step explanatory voiceover on machines, craft and people",
+    "signal": "USAWire ~Oct 19 — example Smartest Workers, 20M+ followers, 1B+ monthly views",
+    "fit": "Commentary/Process 🎙️"
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Behind-the-Counter Bulk Order Process",
+    "desc": "Film a whole process start-to-finish on camera (huge bakery bulk order, sketch-to-reality build) with commentary explaining each step",
+    "signal": "AdAnt views to Oct 19 — @bake16.17 1,760,721 views (15 Oct post); @makewithmiles 1,457,621 views (6 Oct post)",
+    "fit": "Commentary/Process 🎙️"
+  }
 ]
